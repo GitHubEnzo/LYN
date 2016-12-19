@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 80px;
+}
+header img {
+  width: 240px;
+  height: 80px;
+  margin-left: 200px ;
+  float: left;
+}
+header p {
+  height: 40PX;
+  float: left;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 500px;
+  color: #EE2222;
+}
+main {
+  position: relative;
+}
+main img {
+  width: 100%;
+  height: 500px;
+}
+main form {
+  width: 350px;
+  height: 400px;
+  background: #fff;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+main form div {
+  width: 350px;
+  height: 50px;
+  border-bottom: 1px solid #F4F4F4;
+}
+main form div p {
+  width: 100px;
+  height: 30px;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+main form div .p {
+  float: left;
+}
+main form div .p:hover {
+  color: #EE2222;
+}
+main form div p:nth-child(2) {
+  float: right;
+  color: #EE2222;
+}
+main form .dv1 {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #999999;
+  margin: 20px auto;
+}
+main form .dv1 p {
+  width: 80px;
+  height: 30px;
+  padding: 0 0 0 10px;
+  float: left;
+  margin: 15px 0;
+}
+main form .dv1 input {
+  width: 200px;
+  height: 30px;
+  margin: 10px 0;
+  float: right;
+  border: none;
+}
+main form .submit {
+  width: 300px;
+  height: 50px;
+  background: #EE2222;
+  color: #fff;
+  margin: 10px 25px;
+}

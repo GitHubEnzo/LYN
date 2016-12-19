@@ -1,0 +1,9 @@
+[ 2016-11-19T01:12:31+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => '14794891513',
+  2 => 'SDF',
+  3 => '000SDF',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479489151,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null

@@ -1,0 +1,416 @@
+#order_header {
+  width: 1190px;
+  height: 90px;
+  margin: 0 auto;
+}
+#order_header #order_tp {
+  float: right;
+  margin: 20px;
+  margin-right: 50px;
+}
+.cart-header {
+  min-width: 1190px;
+  overflow: hidden;
+}
+.cart-header .clearfix {
+  width: 1190px;
+  clear: both;
+  margin: 0 auto;
+  height: 130px;
+}
+.cart-header .clearfix .g-logo {
+  float: left;
+  width: 400px;
+  height: 100px;
+}
+.cart-header .clearfix .g-logo img {
+  margin-top: 20px;
+}
+.cart-header .clearfix .cart-progress {
+  float: right;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.cart-header .cart-box {
+  width: 1190px;
+  clear: both;
+  min-width: 1190px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.cart-header .cart-box .step1 .step1-title {
+  height: 36px;
+  overflow: hidden;
+}
+.cart-header .cart-box .step1 .step1-title b {
+  font: 700 16px/36px "Microsoft YaHei";
+  color: #221814;
+  float: left;
+}
+.cart-header .cart-box .step1 .step1-content {
+  padding: 0;
+  line-height: 20px;
+  border: 0;
+  background-color: #fff;
+}
+.cart-header .cart-box .step1 .step1-content .addr-list {
+  position: relative;
+  overflow: hidden;
+  height: 110px;
+  line-height: 20px;
+}
+.cart-header .cart-box .step1 .step1-content .addr-list ul {
+  width: 1210px;
+}
+.cart-header .cart-box .step1 .step1-content .addr-list ul .addr1 {
+  position: relative;
+  display: inline;
+  float: left;
+  height: 110px;
+  padding: 3px 22px 3px 14px;
+  cursor: pointer;
+  width: 247px;
+  margin: 0 19px 20px 0;
+  background: url(../image/addr.png) no-repeat;
+}
+.cart-header .cart-box .step1 .step1-content .addr-list ul .addr1 .inner {
+  width: 205px;
+  position: relative;
+  height: 110px;
+  z-index: 3;
+  cursor: pointer;
+}
+.cart-header .cart-box .step1 .step1-content .addr-list ul .addr1 .inner .addr-hd {
+  width: 100%;
+  border-bottom: 1px dashed #e8e8e8;
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cart-header .cart-box .step1 .step1-content .addr-list ul .addr1 .inner .addr-hd span {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: left;
+}
+.cart-header .cart-box .step1 .step1-content .addr-list ul .addr1 .inner .addr-bd {
+  height: 44px;
+  line-height: 22px;
+  padding-top: 3px;
+  overflow: hidden;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.cart-header .cart-box .step1 .step1-content .addr-list ul .addr1 .inner .selected {
+  position: absolute;
+  display: none;
+  right: -13px;
+  bottom: 0;
+  width: 23px;
+  height: 23px;
+  background: url(../image/cart2.png) no-repeat;
+}
+.cart-header .cart-box .step1 .step1-content .addr-list ul .select {
+  position: relative;
+  display: inline;
+  float: left;
+  height: 110px;
+  padding: 3px 22px 3px 14px;
+  cursor: pointer;
+  width: 247px;
+  margin: 0 19px 20px 0;
+  background: url(../image/addr-selected.png) no-repeat;
+}
+.cart-header .cart-box .step1 .step1-content .addr-list ul .addr2 {
+  position: relative;
+  display: inline;
+  float: left;
+  height: 110px;
+  padding: 3px 22px 3px 14px;
+  cursor: pointer;
+  width: 247px;
+  margin: 0 19px 20px 0;
+  background: url(../image/add-addr.png) no-repeat;
+}
+.cart-header .cart-box .step1 .step1-content .nearby-self {
+  line-height: 20px;
+  margin-top: 5px;
+}
+.cart-header .cart-box .step1 .step1-content .nearby-self span {
+  color: #999;
+  margin-left: 8px;
+}
+.cart-header .cart-box .step2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.cart-header .cart-box .step2 .step2-title {
+  height: 36px;
+  overflow: hidden;
+}
+.cart-header .cart-box .step2 .step2-title b {
+  font: 700 16px/36px "Microsoft YaHei";
+  color: #221814;
+  float: left;
+}
+.cart-header .cart-box .step2 .step2-content .clearfix {
+  margin-top: -14px;
+}
+.cart-header .cart-box .step2 .step2-content .clearfix li {
+  position: relative;
+  float: left;
+  width: 178px;
+  height: 38px;
+  margin-top: 14px;
+  text-align: center;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  margin-bottom: 22px;
+  margin-right: 14px;
+}
+.cart-header .cart-box .step2 .step2-content .clearfix li span {
+  font-family: "Microsoft YaHei";
+  line-height: 38px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.cart-header .cart-box .step2 .step2-content .clearfix .selected {
+  width: 176px;
+  height: 36px;
+  border: 2px solid #f90;
+  line-height: 36px;
+  margin-bottom: 22px;
+  margin-right: 14px;
+}
+.cart-header .cart-box .step2 .step2-content .clearfix .selected i {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+  background: url(../image/cart2.png) -25px 0 no-repeat;
+}
+.cart-header .cart-box .step3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.cart-header .cart-box .step3 .step3-title {
+  height: 36px;
+  overflow: hidden;
+}
+.cart-header .cart-box .step3 .step3-title b {
+  font: 700 16px/36px "Microsoft YaHei";
+  color: #221814;
+  float: left;
+}
+.cart-header .cart-box .step3 .step3-title a {
+  margin-left: 10px;
+  padding-top: 11px;
+  float: left;
+  color: #28E;
+  text-decoration: none;
+}
+.cart-header .cart-box .step3 .step3-content {
+  border: 1px solid #eee;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .table-title {
+  position: static;
+  height: auto;
+  border-bottom: 1px solid #eee;
+  line-height: normal;
+  margin-bottom: 7px;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .table-title th {
+  height: 40px;
+  background: #f8f8f8;
+  padding-left: 30px;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .product {
+  position: static;
+  height: auto;
+  border-bottom: 1px solid #eee;
+  line-height: normal;
+  margin-bottom: 7px;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .product th {
+  height: 80px;
+  padding-left: 30px;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .product .product-box {
+  margin: 15px 0 10px;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .product .product-box a {
+  float: left;
+  display: block;
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .product .product-box a img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  float: left;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .product .product-box .detail {
+  padding-left: 10px;
+  font-family: arial;
+  float: left;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .product .product-box .detail p {
+  width: 404px;
+  text-align: left;
+  color: #ccc;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .product .product-box .detail p a {
+  display: block;
+  width: 404px;
+  height: 20px;
+  color: #333;
+  text-decoration: none;
+}
+.cart-header .cart-box .step3 .step3-content .cart-table tbody .product .product-box tr {
+  padding-left: 10px;
+  font-family: arial;
+  float: left;
+}
+.cart-header .cart-box .step4 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.cart-header .cart-box .step4 .step4-title {
+  height: 36px;
+  overflow: hidden;
+}
+.cart-header .cart-box .step4 .step4-title b {
+  font: 700 16px/36px "Microsoft YaHei";
+  color: #221814;
+  float: left;
+}
+.cart-header .cart-box .step4 .step4-content {
+  padding-left: 29px;
+  padding-right: 29px;
+  padding: 19px 19px 28px 10px;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+.cart-header .cart-box .step4 .step4-content p {
+  margin-top: 8px;
+  height: 16px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.cart-header .cart-box .step5 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 29px;
+  padding-right: 29px;
+  padding: 12px 19px;
+  background-color: #FFF;
+  color: #999;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+}
+.cart-header .cart-box .step5 .btn {
+  width: 105px;
+  height: 40px;
+  margin: 0 0 0 10px;
+  color: #FFF;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fa4b4b;
+  float: right;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+.from {
+  width: 800px;
+  position: fixed;
+  margin-left: -400px;
+  margin-top: -200.5px;
+  top: 50%;
+  left: 50%;
+  z-index: 8003;
+  display: none;
+}
+.from .content {
+  overflow: visible;
+  display: block;
+  position: relative;
+  padding: 2px 20px 20px;
+  background-color: #fff;
+  border: 5px solid #dcdcdc;
+}
+.from .content .title {
+  width: 100%;
+  height: 35px;
+  border-bottom: 2px solid #ccc;
+  line-height: 35px;
+}
+.from .content .frombox {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.from .content .frombox p {
+  margin: 30px 0;
+}
+.from .content .frombox p input {
+  width: 150px;
+  height: 25px;
+  border: 1px solid #ccc;
+  margin-left: 15px;
+}
+.from .content .frombox p span {
+  display: block;
+  width: 60px;
+  float: left;
+  text-align: right;
+  line-height: 25px;
+}
+.from .content .frombox p .checkbox {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+.from .content .frombox .btn {
+  width: 68px;
+  height: 30px;
+  background: #FF9900;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.from .content .frombox .closed {
+  display: block;
+  width: 11px;
+  height: 11px;
+  background: url(../images/close.png);
+  position: absolute;
+  top: 15px;
+  left: 750px;
+}
+footer {
+  background: white;
+}
+footer #link a {
+  color: #666666;
+}

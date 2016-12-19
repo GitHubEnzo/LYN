@@ -1,0 +1,51 @@
+[ 2016-11-15T10:53:30+08:00 ]EXCEPTION: INSERT INTO category (`cname`,`pid`,`sort`,`tid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '蕾丝',
+  2 => '15',
+  3 => '1',
+  4 => '0',
+)23000;1062;Duplicata du champ '蕾丝' pour la clef 'category-name_UNIQUE'
+[ 2016-11-15T10:53:50+08:00 ]EXCEPTION: INSERT INTO category (`cname`,`pid`,`sort`,`tid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '蕾丝',
+  2 => '15',
+  3 => '1',
+  4 => '2',
+)23000;1062;Duplicata du champ '蕾丝' pour la clef 'category-name_UNIQUE'
+[ 2016-11-15T10:56:42+08:00 ]EXCEPTION: INSERT INTO category (`cname`,`pid`,`sort`,`tid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => 'LED',
+  2 => '39',
+  3 => '1',
+  4 => '1',
+)23000;1062;Duplicata du champ 'LED' pour la clef 'category-name_UNIQUE'
+[ 2016-11-15T10:57:46+08:00 ]EXCEPTION: INSERT INTO category (`cname`,`pid`,`sort`,`tid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '4K',
+  2 => '39',
+  3 => '1',
+  4 => '1',
+)23000;1062;Duplicata du champ '4K' pour la clef 'category-name_UNIQUE'
+[ 2016-11-15T11:05:04+08:00 ]EXCEPTION: INSERT INTO category (`cname`,`pid`,`sort`,`tid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => 'VR',
+  2 => '4',
+  3 => '1',
+  4 => '1',
+)23000;1062;Duplicata du champ 'VR' pour la clef 'category-name_UNIQUE'
+[ 2016-11-15T11:11:19+08:00 ]EXCEPTION: INSERT INTO category (`cname`,`pid`,`sort`,`tid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '烤箱',
+  2 => '48',
+  3 => '1',
+  4 => '1',
+)23000;1062;Duplicata du champ '烤箱' pour la clef 'category-name_UNIQUE'
+[ 2016-11-15T13:51:34+08:00 ]EXCEPTION: INSERT INTO goods (`gname`,`gnumber`,`unit`,`marketprice`,`shopprice`,`pic`,`click`,`total`,`aid`,`bid`,`cid`,`tid`,`time`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?) ;BindParams:array (
+  1 => '荣耀6x',
+  2 => '5635',
+  3 => '台',
+  4 => '1199',
+  5 => '999',
+  6 => NULL,
+  7 => '2752',
+  8 => '52727',
+  9 => 1,
+  10 => '12',
+  11 => '54',
+  12 => '1',
+  13 => 1479189094,
+)23000;1048;Le champ 'pic' ne peut être vide (null)

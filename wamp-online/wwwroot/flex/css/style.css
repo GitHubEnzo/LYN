@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* a {
+  text-decoration: none;
+}
+img {
+  width: 100vw;
+  height: 15.97444089vw;
+}
+.dv {
+  width: 100vw;
+  height: 11.82108626vw;
+  background: #129BF0;
+  display: flex;
+  justify-content: space-between;
+}
+.dv .left {
+  width: 51.11821086vw;
+  height: 11.82108626vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dv .left img {
+  width: 12.77955272vw;
+  height: 11.82108626vw;
+}
+.dv .left .dv1 {
+  width: 31.94888179vw;
+  height: 5.75079872vw;
+  display: flex;
+  justify-content: space-between;
+}
+.dv .left .dv1 button {
+  width: 15.97444089vw;
+  height: 5.11182109vw;
+  border: 1px solid blue;
+  font-size: 3.83386581vw;
+  font-weight: 500;
+}
+.dv .left .dv1 button:nth-child(1) {
+  background: blue;
+  border-radius: 8px 0 0 8px ;
+  color: #fff;
+}
+.dv .left .dv1 button:nth-child(2) {
+  background: #129BF0 ;
+  border-radius: 0 8px 8px 0;
+  color: blue;
+}
+.dv .right {
+  width: 35.14376997vw;
+  height: 11.82108626vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dv .right i {
+  font-size: 5.75079872vw;
+  color: #fff;
+}
+.dv .right i:nth-child(1) {
+  color: yellow;
+}
+nav {
+  widows: 100vw;
+  height: 10.54313099vw;
+  font-size: 4.47284345vw;
+  display: flex;
+  flex-wrap: wrap ;
+  align-items: center;
+}
+nav a {
+  width: 16.6vw;
+  height: 10.54313099vw;
+  color: #000;
+  text-align: center;
+  line-height: 10.54313099vw;
+}
+nav span {
+  display: block;
+  transform: rotate(-90deg);
+  transition: 1s;
+}
+aside {
+  widows: 100vw;
+  font-size: 4.47284345vw;
+  display: flex;
+  flex-wrap: wrap ;
+  align-items: center;
+}
+aside a {
+  display: block;
+  width: 16.6vw;
+  height: 10.54313099vw;
+  color: #000;
+  text-align: center;
+  line-height: 10.54313099vw;
+  display: none;
+}
+.swiper-container {
+  width: 100vw;
+  height: 53.67412141vw;
+  background: #ccc;
+}
+.swiper-container img {
+  width: 100vw;
+  height: 53.67412141vw;
+}
+article .dv2 {
+  width: 102.23642173vw;
+  height: 22.36421725vw;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+article .dv2 img {
+  width: 23.64217252vw;
+  height: 17.8913738vw;
+}
+article .dv2 div {
+  width: 70.28753994vw;
+  height: 17.8913738vw;
+  display: flex;
+  flex-direction: column;
+}
+article .dv2 div a {
+  width: 70.28753994vw;
+  height: 14.05750799vw;
+  font-size: 4.47284345vw;
+  color: #000;
+}
+article .dv2 div div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+article .dv2 div div p {
+  font-size: 3.83386581vw;
+  order: 2 ;
+}
+article .dv2 div div i {
+  padding: 0 20px;
+  font-size: 3.83386581vw;
+}
+.dv3 {
+  height: 6.38977636vw;
+  background: black;
+  font-size: 3.19488818vw;
+  text-align: center;
+  line-height: 6.38977636vw;
+}
+.dv3 a {
+  color: #fff;
+  font-family: "微软雅黑";
+}

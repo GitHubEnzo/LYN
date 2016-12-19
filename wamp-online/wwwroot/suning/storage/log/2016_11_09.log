@@ -1,0 +1,27 @@
+[ 2016-11-09T21:01:45+08:00 ]EXCEPTION: Method app\admin\controller\Goods::add() does not exist
+[ 2016-11-09T21:05:11+08:00 ]EXCEPTION: INSERT INTO goods (`gname`,`gnumber`,`unit`,`marketprice`,`shopprice`,`pic`,`click`,`total`,`aid`,`bid`,`cid`,`tid`,`time`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?) ;BindParams:array (
+  1 => '1111111111111',
+  2 => '111111111',
+  3 => '1111111111',
+  4 => 'we',
+  5 => 'rwe',
+  6 => NULL,
+  7 => 'wer',
+  8 => 'wre',
+  9 => 1,
+  10 => '2',
+  11 => '170',
+  12 => '24',
+  13 => 1478696711,
+)23000;1048;Le champ 'pic' ne peut être vide (null)
+[ 2016-11-09T21:17:05+08:00 ]EXCEPTION: show columns from type ;BindParams:array (
+)42S02;1146;La table 'suning.type' n'existe pas
+[ 2016-11-09T21:19:52+08:00 ]EXCEPTION: show columns from type ;BindParams:array (
+)42S02;1146;La table 'suning.type' n'existe pas
+[ 2016-11-09T21:19:55+08:00 ]EXCEPTION: show columns from type ;BindParams:array (
+)42S02;1146;La table 'suning.type' n'existe pas
+[ 2016-11-09T21:20:13+08:00 ]EXCEPTION: show columns from type ;BindParams:array (
+)42S02;1146;La table 'suning.type' n'existe pas
+[ 2016-11-09T22:06:02+08:00 ]EXCEPTION: Method app\admin\controller\Goods::delArray() does not exist
+[ 2016-11-09T22:06:16+08:00 ]EXCEPTION: Method app\admin\controller\Goods::delArray() does not exist
+[ 2016-11-09T22:06:31+08:00 ]EXCEPTION: Method app\admin\controller\Goods::delArray() does not exist

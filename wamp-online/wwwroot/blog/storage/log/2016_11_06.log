@@ -1,0 +1,14 @@
+[ 2016-11-06T00:37:09+08:00 ]EXCEPTION: show columns from hd_admin ;BindParams:array (
+)42S02;1146;La table 'suning.hd_admin' n'existe pas
+[ 2016-11-06T00:48:23+08:00 ]EXCEPTION: app\admin\controller\Enter 不存在
+[ 2016-11-06T11:16:55+08:00 ]EXCEPTION: Method app\admin\controller\Category::addson() does not exist
+[ 2016-11-06T11:18:46+08:00 ]EXCEPTION: Method app\admin\controller\Category::addson() does not exist
+[ 2016-11-06T11:18:51+08:00 ]EXCEPTION: Method app\admin\controller\Category::addson() does not exist
+[ 2016-11-06T11:31:22+08:00 ]EXCEPTION: Method app\admin\controller\TypeAttr::add() does not exist
+[ 2016-11-06T11:33:06+08:00 ]EXCEPTION: Method app\admin\controller\Category::edit() does not exist
+[ 2016-11-06T11:35:00+08:00 ]EXCEPTION: 模板不存在:d:\wamp\www\liu.y.n\suning/app/admin/view/category/edit.php
+[ 2016-11-06T11:35:01+08:00 ]EXCEPTION: 模板不存在:d:\wamp\www\liu.y.n\suning/app/admin/view/category/edit.php
+[ 2016-11-06T11:35:02+08:00 ]EXCEPTION: 模板不存在:d:\wamp\www\liu.y.n\suning/app/admin/view/category/edit.php
+[ 2016-11-06T11:35:16+08:00 ]EXCEPTION: 模板不存在:d:\wamp\www\liu.y.n\suning/app/admin/view/category/edit.php
+[ 2016-11-06T11:37:25+08:00 ]EXCEPTION: Method app\admin\controller\Brand::edit() does not exist
+[ 2016-11-06T11:38:33+08:00 ]EXCEPTION: Method app\admin\controller\Goods::edit() does not exist

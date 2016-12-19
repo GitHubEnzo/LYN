@@ -1,0 +1,2 @@
+192.168.10.1 - - [31/Oct/2016:14:53:15 +0800] "GET http://c72_yining.houdunphp.com/ HTTP/1.1" 200 653 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"[KLt1185]
+192.168.10.1 - - [31/Oct/2016:14:53:15 +0800] "GET http://c72_yining.houdunphp.com/favicon.ico HTTP/1.1" 404 756 "http://c72_yining.houdunphp.com/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"[L]

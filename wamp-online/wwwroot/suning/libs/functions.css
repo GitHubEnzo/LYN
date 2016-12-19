@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.magnify {
+  width: 400px;
+  height: 461px;
+  border: 1px solid #CCC;
+  position: relative;
+}
+.magnify .mf_picture {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background-size: cover ;
+}
+.magnify ul {
+  width: 400px;
+  height: 60px;
+  border-top: 1px solid #CCC;
+}
+.magnify ul p {
+  width: 20px;
+  height: 60px;
+  color: white;
+  background: black;
+  opacity: 0.1;
+  position: absolute;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+.magnify ul .magnify_right {
+  left: 380px;
+}
+.magnify ul img {
+  width: 58px;
+  height: 58px;
+  float: left;
+  margin-left: 30px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.magnify ul img:hover {
+  box-shadow: 0px 0px 2px 2px blue;
+  opacity: 0.3;
+}
+.magnify .mf_picture_big {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  z-index: 1000;
+  display: none;
+}
+.magnify .mf_picture_big img {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
+.magnify .mf_picture_max {
+  width: 800px;
+  height: 800px;
+  z-index: 10000;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  display: none;
+}
+.magnify .patch {
+  width: 200px;
+  height: 200px;
+  background: coral;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0.5;
+  display: none;
+}
+.magnify .film {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.shuffling {
+  width: 770px;
+  height: 433px;
+  border: 1px solid #CCC;
+  position: relative;
+  overflow: hidden;
+}
+.shuffling .sf_picture {
+  width: 100000px;
+  position: absolute ;
+}
+.shuffling .sf_picture img {
+  width: 770px;
+  height: 433px;
+  display: block;
+  float: left;
+}
+.shuffling ul {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  top: 360px;
+}
+.shuffling ul li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black ;
+  border-radius: 20px;
+  background: black;
+  opacity: 0.5;
+}
+.shuffling ul li:first-child {
+  border: 2px solid red ;
+}
+.shuffling p {
+  width: 20px;
+  height: 40px;
+  background: black;
+  opacity: 0.2;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 180px;
+}
+.shuffling .sf_right {
+  right: 0px;
+}
+.add_cut {
+  width: 400px;
+  height: 20px;
+  border: 1px solid #CCC;
+}
+.add_cut p {
+  height: 20px;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+}
+.add_cut p .total {
+  color: orangered;
+}
+.add_cut div {
+  height: 20px;
+  width: 130px;
+  display: inline-block;
+}
+.add_cut div input {
+  width: 30px;
+  height: 18px;
+  text-align: center;
+  display: inline-block;
+}
+.search_all {
+  width: 1190px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  z-index: 9999;
+}
+.search_all .search {
+  width: 210px;
+  height: 30px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+}
+.search_all .search #keyword {
+  width: 150px;
+  height: 30px;
+  border: none;
+  float: left;
+}
+.search_all .search #button {
+  width: 50px;
+  height: 30px;
+  border: none;
+  background: red;
+  color: white;
+  float: right;
+  text-align: center;
+  line-height: 30px;
+}
+.music_rotate {
+  width: 100px;
+  height: 100px;
+  background: url(image/music.png);
+  background-size: cover ;
+  cursor: pointer;
+  border-radius: 50% ;
+}

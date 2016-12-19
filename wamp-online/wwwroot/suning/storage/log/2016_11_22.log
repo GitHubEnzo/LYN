@@ -1,0 +1,47 @@
+[ 2016-11-22T10:45:14+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM user_role ur JOIN role r ON ur.role_id = r.id  JOIN access a ON a.role_id=r.id  JOIN node n ON n.id = a.node_id WHERE ur.user_id=2 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S02;1146;Table 'suning.user_role' doesn't exist
+[ 2016-11-22T10:57:19+08:00 ]EXCEPTION: INSERT INTO goods (`gname`,`gnumber`,`unit`,`marketprice`,`shopprice`,`pic`,`click`,`total`,`aid`,`bid`,`cid`,`tid`,`time`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'mac book air ',
+  2 => '123123425',
+  3 => '台',
+  4 => '6899',
+  5 => '6888',
+  6 => 'attachment/2016/11/22/20551479783335.jpg',
+  7 => '23423436',
+  8 => '346',
+  9 => NULL,
+  10 => '1',
+  11 => '25',
+  12 => '1',
+  13 => 1479783439,
+)23000;1048;Column 'aid' cannot be null
+[ 2016-11-22T10:58:30+08:00 ]EXCEPTION: INSERT INTO goods (`gname`,`gnumber`,`unit`,`marketprice`,`shopprice`,`pic`,`click`,`total`,`aid`,`bid`,`cid`,`tid`,`time`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'mac book air ',
+  2 => '123123425',
+  3 => '台',
+  4 => '6899',
+  5 => '6888',
+  6 => 'attachment/2016/11/22/20551479783335.jpg',
+  7 => '23423436',
+  8 => '346',
+  9 => NULL,
+  10 => '1',
+  11 => '25',
+  12 => '1',
+  13 => 1479783510,
+)23000;1048;Column 'aid' cannot be null
+[ 2016-11-22T11:02:23+08:00 ]EXCEPTION: INSERT INTO goods (`gname`,`gnumber`,`unit`,`marketprice`,`shopprice`,`pic`,`click`,`total`,`aid`,`bid`,`cid`,`tid`,`time`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'macbook air',
+  2 => '4563622423425',
+  3 => '台',
+  4 => '6888',
+  5 => '5888',
+  6 => 'attachment/2016/11/22/20551479783335.jpg',
+  7 => '3455',
+  8 => '453',
+  9 => NULL,
+  10 => '1',
+  11 => '25',
+  12 => '1',
+  13 => 1479783743,
+)23000;1048;Column 'aid' cannot be null

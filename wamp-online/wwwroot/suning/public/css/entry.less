@@ -1,0 +1,590 @@
+
+//首屏开始
+#first_screen{
+    width: 100%;
+    height: 455px;
+    #first_screen_banner{
+       width: 1190px;
+       height: 445px;
+       margin: 0 auto;
+       position: relative;
+//     background: plum; 
+//菜单           
+       #menu{
+           width:190px ;
+//         height: 447px;
+//         background:#FFF3F6;
+           position: relative;
+           top: -2px;
+            ul{
+                position: relative;
+                top: 2px;                            
+                li{
+               width: 190px;
+               height: 35px;
+               float: left;
+               overflow: hidden;
+                   a{
+                       display: inline-block;
+                       float: left;
+                       line-height: 35px;
+                       font-size: 13px;
+                       margin-left: 7px;
+                       color: #333;
+                       font-family: "微软雅黑";
+                   }
+                   .menu_son{
+                       width: 950px;
+//                     height: 453px;
+                       border: 2px solid #FA5147;
+                       background: #fff;
+                       position: absolute;
+                       top: 0;left: 190px;
+                       display: none;
+                       .menu_son_left{
+                           width: 700px;
+//                         height: 455px;
+                           float: left;
+                            .menu_son_top{
+                                 margin: 10px 20px; 
+                                 height: 24px;                      
+                             a{
+                                display: inline-block;
+                                border-radius:24px;
+                                background: #FA5147;
+                                line-height: 24px;
+                                 padding-left: 5px;
+                                 padding-right: 5px;
+                                margin-right:  20px;
+                                }                                                                         
+                            }    
+                           .menu_son_bottom{
+                               width:700px ;
+//                             height: 400px;
+                               overflow: hidden;
+                               .menu_son_bottom_list{
+                                   margin-top: 5px;
+//                                 display: block;
+                                   p{
+                                       display: inline-block;
+                                       margin: 0 15px;
+                                       float: left;
+                                       a{
+                                          color: #000000; 
+                                       }                                       
+                                   }
+                                  div{
+                                      display: inline-block;
+                                      width: 600px;
+                                      border-bottom: 1px solid #EEEEEE;
+                                      a{
+                                          color: #1F2A34;
+                                      }
+                                  }                              
+                               }
+                           }    
+                       }  
+                       .menu_son_right{
+                           width: 210px;
+                           height: 455px;
+                           float: right; 
+                           img{
+                               width: 100px;
+                               height: 60px;
+//                             display: inline-block;
+                           }   
+                       }                                   
+                   }
+                    &:hover{
+                       background: #FA5147;
+                   }
+                    &:hover a{
+                       color: white;
+                   }
+                    &:hover .menu_son{                        
+                      display: block;
+                      z-index: 123;
+                   }
+               }                           
+           }
+         }
+//轮播图
+#run_tp{
+    width: 770px;
+    height: 445px;
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 190px;
+}
+//公告
+#notice{
+    width: 220px;
+    height: 433px;
+    position: absolute;top: 0;right: 0;
+}
+     }      
+}
+//滚动条
+#runs_bar_all{
+    margin-top:15px;
+    width: 100%;
+    height: 184px;
+    #run_bar{
+        width: 1190px;
+        height: 184px;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        p{
+            width: 30px;
+            height: 60px;
+            background: black;
+            opacity: 0.1;
+            position: absolute;
+            top:61px;
+            z-index: 2;
+            color: white;
+            font-size: 20px;
+            line-height: 60px;
+            text-align: center;
+            font-weight: 90;
+        }
+        #run_bar_right{           
+            left:1157px;
+        }
+        #run_bar_all{
+             width: 3575px;
+             height: 184px; 
+             position: absolute;         
+            .run_bar_num{
+               float: left;
+               padding-right: 1px;
+                    img{
+                padding-right: 5.2px;
+             }           
+            }
+        }     
+    }
+}
+//活动广告
+#ad_long_1{
+    margin-top:30px;
+    width: 100%;
+    height: 240px;
+    .ad_long_1_top{
+        width: 1190px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    .ad_long_1_buttom{
+        background: red;
+        width: 1190px;
+        height: 180px;
+        margin: 0 auto;
+        img{
+            margin: 0 5px 0 0;
+        }
+    }
+}
+
+//楼层
+.wrapper{
+    width: 1190px;
+    clear: both;
+    min-width: 1190px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.floor1{
+    height: 624px;
+    position: relative;
+    
+    .floor-head{
+        position: relative;
+        height: 34px;
+        .title{
+            position: relative;
+            float: left;
+            bottom: 6px;
+            width: 190px;
+            height: 34px;
+            color: #222;
+            overflow: hidden;
+            h3{
+                height: 34px;
+                font: bold 20px/34px 'microsoft yahei';
+                overflow: hidden;
+                b{
+                    padding-right: 8px;
+                    font-family: arial;
+                }
+            }
+        }
+        .floor-tab{
+            float: right;
+            height: 34px;
+            .on{
+                position: relative;
+                float: left;
+                height: 34px;
+                margin-left: 20px;
+                margin-top: 6px;
+                overflow: hidden;
+                a{
+                    em{
+                        font: 14px/34px 'microsoft yahei';
+                        vertical-align: middle;
+                        font-weight: bold !important;
+                        color: #783e18 !important;
+                    }
+                }
+                span{
+                    width: 0;
+                    height: 0;
+                    border-width: 0 11px 9px;
+                    border-style: solid;
+                    border-color: transparent transparent #783e18;
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -11px;
+                    bottom: 0;
+                    font-size: 0;
+                }
+            }
+            li{
+                position: relative;
+                float: left;
+                height: 34px;
+                margin-left: 20px;
+                margin-top: 6px;
+                overflow: hidden;
+                a{
+                    em{
+                        font: 14px/34px 'microsoft yahei';
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+    .floor-main{
+        position: absolute;
+        
+        height: 590px;
+        overflow: hidden;
+        .side{
+            position: relative;
+            float: left;
+            width: 389px;
+            height: 589px;
+            border-bottom: 1px solid #eee;
+            overflow: hidden;
+            .side-img{
+                background: #ffe2ec;
+                position: relative;
+                display: block;
+                width: 383px;
+                height: 303px;
+                padding-top: 16px;
+                text-decoration: none;
+                .title{
+                    width: 200px;
+                    height: 40px;
+                    margin: 0 0 0 20px;
+                    font: 20px/40px "Microsoft YaHei";
+                    text-decoration: none;
+                    position: relative;
+                    z-index: 1;
+                    overflow: hidden;
+                }
+                .desc{
+                    width: 320px;
+                    height: 24px;
+                    margin-left: 20px;
+                    font: 16px/24px "Microsoft YaHei";
+                    text-decoration: none;
+                    position: relative;
+                    z-index: 1;
+                    overflow: hidden;
+                }
+                .lazy-loading{
+                    position: absolute;
+                    bottom: 0;
+                    right: 10px;
+                    display: block;
+                    width: 250px;
+                    height: 250px;  
+                }
+                .roll{
+                    position: absolute;
+                    top: 0;
+                    right: -6px;
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 6px 0 0 6px;
+                    font-style: normal;
+                }
+                .floor-logo{
+                    position: absolute;
+                    bottom: 0;
+                    right: 10px;
+                    display: block;
+                    width: 80px !important;
+                    height: 80px !important;
+                    top: 0;
+                }
+            }
+            .entrances{
+                position: absolute;
+                bottom: 270px;
+                width: 383px;
+                background-color: #fff;
+                overflow: hidden;
+                opacity: .7;
+                li{
+                    float: left;
+                    padding: 7px 0;
+                    img{
+                        position: relative;
+                        top: 5px;
+                    }
+                    a{
+                        position: relative;
+                        float: left;
+                        width: 85px;
+                        height: 33px;
+                        line-height: 33px;
+                        margin: 0 21px;
+                        font-family: 'microsoft yahei';
+                        overflow: hidden;
+                        color: #d18592;
+                        em{
+                            margin-left: 10px;
+                            font-style: normal;
+                        }
+                    }
+                }
+            }
+            .hot-word{
+                width: 383px;
+                height: 124px;
+                border-bottom: 1px solid #eee;
+                border-left: 1px solid #eee;
+               
+                    a{
+                        display: block;
+                        float: left;
+                        width: 64px;
+                        height: 25px;
+                        line-height: 25px;
+                        color: #666;
+                        font-family: "Microsoft Yahei";
+                        overflow: hidden;
+                        &:hover{
+                            color: #FF6600;
+                        }
+                    }
+                div{
+                    float: left;
+                    width: 340px;
+                    margin: 12px 18px;
+                    overflow: hidden;
+                }          
+            }
+            .last-img{
+                position: relative;
+                width: 382px;
+                height: 145px;
+                border-left: 1px solid #eee;
+                border-right: 1px solid #eee;
+                a{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    text-decoration: none;
+                    .title{
+                        position: relative;
+                        z-index: 1;
+                        overflow: hidden;
+                        width: 180px;
+                        height: 28px;
+                        margin: 15px 0 0 16px;
+                        font: 18px/28px "Microsoft YaHei";
+                        color: #222;
+                    }
+                    .desc{
+                        width: 280px;
+                        height: 24px;
+                        margin-left: 16px;
+                        font: 14px/24px "Microsoft YaHei";
+                        position: relative;
+                        z-index: 1;
+                        overflow: hidden;
+                    }
+                    img{
+                        position: absolute;
+                        right: 10px;
+                        top: 0;
+                        display: block;
+                        width: 145px;
+                        height: 145px;
+                    }
+                }
+            }
+        }
+        .main-cont{
+            height: 582px;
+            margin-top: 6px;
+            margin-left: -6px;
+            border-top: 1px solid #eee;
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            background: #fff;
+            overflow: hidden;
+            float: left;
+            width: 805px;
+            .slider{
+                position: absolute;
+                width: 405px;
+                height: 291px;
+                top: 7px;
+                left: 383px;
+                border-bottom: 1px solid #eee;
+                background: #fff;
+                overflow: hidden;
+            }
+            .col1{
+                position: relative;
+                float: left;
+                width: 405px;
+                height: 291px;
+                border-bottom: 1px solid #eee;
+                overflow: hidden;
+                top: 292px;
+                li{
+                    position: relative;
+                    float: left;
+                    width: 405px;
+                    height: 145px;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    background: #fff;
+                    overflow: hidden;
+                    a{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        text-decoration: none;
+                        .title{
+                            width: 180px;
+                            height: 28px;
+                            margin: 15px 0 0 16px;
+                            font: 18px/28px "Microsoft YaHei";
+                            color: #222;
+                            position: relative;
+                            z-index: 1;
+                            overflow: hidden;
+                        }
+                        .desc{
+                            width: 280px;
+                            height: 24px;
+                            margin-left: 16px;
+                            font: 14px/24px "Microsoft YaHei";
+                            position: relative;
+                            z-index: 1;
+                            overflow: hidden;
+                        }
+                        img{
+                            position: absolute;
+                            bottom: 0;
+                            right: 10px;
+                            display: block;
+                            width: 145px;
+                            height: 145px;
+                        }
+                    }
+                }
+            }
+            .col2{
+                position: relative;
+                float: left;
+                border-bottom: 1px solid #eee;
+                width: 200px;
+                height: 582px;
+                overflow: hidden;
+                li{
+                    position: relative;
+                    float: left;
+                    width: 199px;
+                    height: 291px;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    overflow: hidden;
+                }
+                a{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    text-decoration: none;
+                    .title{
+                        width: 108px;
+                        height: 28px;
+                        margin: 15px 0 0 16px;
+                        font: 18px/28px "Microsoft YaHei";
+                        color: #222;
+                        position: relative;
+                        z-index: 1;
+                        overflow: hidden;
+                    }
+                    .desc{
+                        width: 140px;
+                        height: 24px;
+                        margin-left: 16px;
+                        font: 14px/24px "Microsoft YaHei";
+                        position: relative;
+                        z-index: 1;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+}
+#floorMenu{
+    width: 60px;
+    border: 1px solid orange;
+    position: fixed;
+    top:200px;
+    left:0px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    li{
+    width: 60px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    height: 30px; 
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    background: orange;   
+      &:hover{
+        background: orangered;
+        
+         }
+      }
+    .active{
+        background: orangered;
+        color: white;
+    }
+}

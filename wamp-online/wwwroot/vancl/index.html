@@ -1,0 +1,748 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>仿写凡客</title>
+	<link rel="stylesheet" href="css/index.css" />
+	<script>	
+			window.onload=function(){
+//		// 轮播图一楼，源生JS
+//			// 抓取
+			var imgs=document.getElementsByClassName('lunbo');
+			var lunbox=document.getElementById('center_c');
+			var lis=document.getElementsByClassName('lunli');
+			var lunnum=0;
+//			// 执行
+			function lunrun(){
+					lunnum++;
+					if (lunnum==4) {lunnum=0};
+					lunboxiaoguo(lunnum);
+			}
+			luntime=setInterval(lunrun,1500);
+//			// 鼠标放入停止
+			lunbox.onmouseover=function(){
+				clearInterval(luntime);
+			}
+			// 鼠标离开继续
+			lunbox.onmouseout=function(){
+				luntime=setInterval(lunrun,1500);
+			}
+			// 手动切换
+			for(l=0;l<lis.length;l++){
+				lis[l].hao=l;
+				lis[l].onmouseover=function(){
+					lunnum=this.hao;
+					lunboxiaoguo(lunnum);
+				}
+			}
+//			// 按钮切换
+//			left.onclick=function(){
+//					lunnum--;
+//					if (lunnum<0) {lunnum=5};
+//					lunboxiaoguo(lunnum);
+//			}
+//			right.onclick=function(){
+//				lunrun();
+//			}
+			// 执行流程
+			function lunboxiaoguo(lunnum){
+				for(i=0;i<imgs.length;i++){
+					imgs[i].style.display="none";
+//					lis[i].style.color="#DDDDDD"
+					lis[i].style.background="#DDDDDD"
+				}
+				imgs[lunnum].style.display="block";
+//				lis[lunnum].style.color="#fff"
+				lis[lunnum].style.background="#A10000"
+			}
+		
+	}
+	</script>
+
+</head>
+<body>
+<!-- 顶部条 -->
+	<div id="topbj">
+		<div class="box">
+			<div class="boxl">
+				<span>您好,欢迎光临凡客诚品！</span>
+				<div class="dl">
+					<span><a href="">登录</a>&nbsp;| 
+						<a href="">注册</a>
+						<a href="">我的订单</a>
+						<a href="">收藏本站</a>
+					</span>
+					
+				</div>
+			</div>
+			<div class="boxr">
+				<div class="me">
+					<a href="" class="me_a">我的凡客</a><img src="images/jiantou.gif" alt="" />
+					<div class="dd">
+						<ul>
+							<li><a href="">我的订单</a></li>
+							<li><a href="">我的收藏</a></li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="help">
+					<a href="" class="help_a">帮助中心</a><img src="images/jiantou.gif" alt="" />
+					<div class="dd">
+						<ul>
+							<li><a href="">购物指南</a></li>
+							<li><a href="">配送方式</a></li>
+							<li><a href="">支付方式</a></li>
+							<li><a href="">售后服务</a></li>
+							<li><a href="">投诉建议</a></li>
+							<li><a href="">在线客服</a></li>
+						</ul>
+					</div>					
+				</div>
+				<div class="gonggao">
+					<a href="" class="gonggao_a">网站公告</a><img src="images/jiantou.gif" alt="" />
+					<div class="dd">
+						<ul>
+							<li><a href="">网站公告</a></li>
+							<li><a href="">重要提示</a></li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="shoujizi">
+					<a href="">手机凡客</a>
+				</div>
+				<div class="shoujitu">
+					<a href=""><img src="images/shouji.gif" alt="" /></a>
+				</div>
+				<div class="zaixian">
+					<a href="">在线客服</a>
+				</div>
+				<div class="zaixiantu">
+					<a href=""><img src="images/zaixian.png" alt="" /></a>
+				</div>
+				<a href=""><img src="images/weibo.jpg" alt="" class="weibo" /></a>
+				<div class="weixin">
+					<a href=""><img src="images/weixin.jpg" alt="" class="weixintou" /></a>
+					<a href=""><img src="images/weixin.gif" alt=""  class="weixintu" /></a>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		
+	</div>
+<!-- 顶部条结束 -->
+<!-- 广告条 -->
+	<div id="ggt">
+		<div class="ggtn">
+		<a href=""><img src="images/ggt.jpg" alt="" /></a>
+		</div>
+	</div>
+<!-- 广告条结束 -->
+<!-- 搜索区域 -->
+	<div id="ss">
+		<div class="logo">
+			<a href=""><img src="images/logob.gif" alt="" /></a>
+			
+		</div>
+		<div class="ssk">
+			<div class="sst">
+				<input type="text" placeholder="搜“穆旦”，体验与众不同" style="font-size:12px;font-family:宋体;" />
+				<input type="submit" value="搜索" />
+				<div class="gouwuche">
+					<a href="">购物车(0)</a>
+				
+				</div>				
+				
+			</div>
+			<div class="remen">
+				<p>热门搜索：<a href="">T恤</a>
+				<a href="">雨声潺潺</a>
+				<a href="">穆旦</a>
+				<a href="">只有上帝</a>
+				<a href="">帆布鞋</a>
+				<a href="">衬衫</a></p>
+				
+			</div>
+
+			
+		</div>
+
+	</div>
+<!-- 搜索区域结束 -->
+<!-- 导航条 -->
+	<div id="menu">
+		<div class="menu_l">全部商品分类
+		</div>
+		<div class="menu_r">
+			<ul>
+				<li>
+					<a href="" class="menu_r_a">新品<sup>new</sup>
+					</a>
+					<div class="hide">
+						<div class="hide_l">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/xp1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">凡客T恤 运动速干
+									</a>
+								</strong>
+								<p class="hide_text_p1">在快速吸收皮肤表面汗液和湿气的同时，亦能保证汗水的有效传导和扩散，让皮肤时刻保持干爽舒适</p>
+								<p class="hide_text_p2">￥168</p>
+							</div>
+						</div>
+						<div class="hide_r">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/xp2.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">凡客POLO衫 长绒棉
+									</a>
+								</strong>
+								<p class="hide_text_p1">长绒棉 纤维柔长 强度也更高 打孔衬条</p>
+								<p class="hide_text_p2">￥168</p>
+							</div>
+						</div>
+		
+					</div>
+
+				</li>
+				<li><a href="" class="menu_r_a">T恤<sup>new</sup>
+					</a>
+					<div class="hide">
+						<div class="hide_l">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/tx1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">男款
+									</a>
+								</strong>
+								<p class="hide_text_p1">春夏新品全新上线</p>
+								<p class="hide_text_p2">￥59起</p>
+							</div>
+						</div>
+						<div class="hide_r">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/tx2.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">女款
+									</a>
+								</strong>
+								<p class="hide_text_p1">春夏新品全新上线</p>
+								<p class="hide_text_p2">￥59起</p>
+							</div>
+						</div>
+		
+					</div>
+
+				</li>
+				<li>
+					<a href="" class="menu_r_a">衬衫
+					</a>
+					<div class="hide">
+						<div class="hide_l">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/cs1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">免烫衬衫
+									</a>
+								</strong>
+								<p class="hide_text_p1">使用成衣免烫技术 多次水洗依然平整如新</p>
+								<p class="hide_text_p2">￥299起</p>
+							</div>
+						</div>
+						<div class="hide_r">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/cs2.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">休闲衬衫
+									</a>
+								</strong>
+								<p class="hide_text_p1">牛津纺 青年布 法兰绒</p>
+								<p class="hide_text_p2">￥129起</p>
+							</div>
+						</div>
+		
+					</div>
+				</li>
+				<li><a href="" class="menu_r_a">麻
+					</a>
+					<div class="hide">
+						<div class="hide_l">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/m1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">凡客棉麻衬衫 吉国武
+									</a>
+								</strong>
+								<p class="hide_text_p1">质朴 透气 麻 吉国武版</p>
+								<p class="hide_text_p2">￥249</p>
+							</div>
+						</div>
+						<div class="hide_r">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/m2.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">凡客棉麻休闲裤
+									</a>
+								</strong>
+								<p class="hide_text_p1">质朴 透气 麻 棉麻休闲裤</p>
+								<p class="hide_text_p2">￥199</p>
+							</div>
+						</div>
+		
+					</div>
+
+				</li>
+				<li><a href="" class="menu_r_a">裤装
+					</a>
+					<div class="hide">
+						<div class="hide_l">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/kz1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">牛仔裤 松紧腰 女款
+									</a>
+								</strong>
+								<p class="hide_text_p1">修身设计，松紧腰穿着更加舒适百搭</p>
+								<p class="hide_text_p2">￥149</p>
+							</div>
+						</div>
+						<div class="hide_r">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/kz2.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">重洗水短裤
+									</a>
+								</strong>
+								<p class="hide_text_p1">质朴 透气 纯棉休闲裤</p>
+								<p class="hide_text_p2">￥129起</p>
+							</div>
+						</div>
+		
+					</div>
+				</li>
+				<li><a href="" class="menu_r_a">鞋
+					</a>
+					<div class="hide">
+						<div class="hide_l">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/x1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">帆布鞋 男款
+									</a>
+								</strong>
+								<p class="hide_text_p1">历时22月，历经16次2000人试穿，颠覆性的楦型改变，舒适度提升，多色上市</p>
+								<p class="hide_text_p2">￥168起/双</p>
+							</div>
+						</div>
+						<div class="hide_r">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/x2.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">帆布鞋 女款
+
+									</a>
+								</strong>
+								<p class="hide_text_p1">环保全棉帆布，活性染色久穿不褪色</p>
+								<p class="hide_text_p2">￥168起/双</p>
+							</div>
+						</div>
+		
+					</div>
+				</li>
+				<li><a href="" class="menu_r_a">袜品
+					</a>
+					<div class="hide">
+						<div class="hide_l">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/wp1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">连裤袜
+									</a>
+								</strong>
+								<p class="hide_text_p1">塑性设计 弹力好 捻度高 抗勾丝 抗起球</p>
+								<p class="hide_text_p2">￥29起</p>
+							</div>
+						</div>
+						<div class="hide_r">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/wp2.jpg" alt="" />
+								</a>
+							</div>	
+							<div class="hide_text">
+								<strong>
+									<a href="">船袜
+									</a>
+								</strong>
+								<p class="hide_text_p1">触感透气柔软 穿着不易脱落</p>
+								<p class="hide_text_p2">￥12起</p>
+							</div>
+						</div>
+		
+					</div>
+				</li>
+				<li><a href="" class="menu_r_a">Nautilus
+					</a>
+					<div class="hide">
+						<div class="hide_l">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/na1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href="">男款短袖
+									</a>
+								</strong>
+								<p class="hide_text_p1">Vancl by Emmanuel 男款 短袖 多款选择</p>
+								<p class="hide_text_p2">￥69</p>
+							</div>
+						</div>
+						<div class="hide_r">
+							<div class="hide_img">
+								<a href="">
+									<img src="images/na2.jpg" alt="" />
+								</a>
+							</div>
+							<div class="hide_text">
+								<strong>
+									<a href=""> Nautilus 整装待发系列
+									</a>
+								</strong>
+								<p class="hide_text_p1"></p>
+								<p class="hide_text_p2">￥59起</p>
+							</div>
+						</div>
+		
+					</div>
+				</li>
+			</ul>
+			
+		</div>
+
+
+	</div>
+<!-- 导航条结束 -->
+<!-- 中间部分 -->
+	<div id="centerbox">
+	<!-- 中间左边 -->
+		<div id="center_left">
+			<div class="center_l nanzhuang">
+				<div class="tixue">
+					<dt><a href="" class="lei_titlea">T恤</a>
+						<dd><a href="" class="lei_a">印花</a>
+						<a href="" class="lei_a">水柔棉</a>
+						<a href="" class="lei_a">运动速干</a>
+						<a href="" class="lei_a">POLO</a>
+						<a href="" class="lei_a">穆旦</a>
+						<a href="" class="lei_a">只有上帝</a>
+						<a href="" class="lei_a">雨声潺潺</a></dd>
+						<a href="" class="lei_redtitle title_nanzhuang">男装</a>
+						<a href="" class="lei_redtitle title_nvzhuang">女装</a>
+						<a href="" class="lei_redtitle title_xie">帆布鞋</a>
+						<a href="" class="lei_redtitle title_qita">其他</a>
+					</dt>
+				</div>
+				<div class="chenshan">
+					<dt><a href="" class="lei_titlea">衬衫</a>
+						<dd><a href="" class="lei_a">免烫</a>
+						<a href="" class="lei_a">府绸衬衫</a>
+						<a href="" class="lei_a">牛津纺</a>
+						<a href="" class="lei_a">麻衬衫</a>
+					</dt>
+				</div>
+				<div class="shangzhuang">
+					<dt><a href="" class="lei_titlea">上装</a>
+						<dd><a href="" class="lei_a">麻西服</a>
+						<a href="" class="lei_a">针织衫</a>
+						<a href="" class="lei_a">皮肤衣</a>
+					</dt>
+				</div>
+				<div class="kuzhuang">
+					<dt><a href="" class="lei_titlea">裤装</a>
+						<dd><a href="" class="lei_a">牛仔裤</a>
+						<a href="" class="lei_a">休闲裤</a>
+						<a href="" class="lei_a">短裤</a>
+						<a href="" class="lei_a">棉麻裤</a>
+					</dt>
+				</div>
+			</div>
+			<div class="center_l nvzhuang">
+				<dt>
+					<dd><a href="" class="lei_a">T恤</a>
+					<a href="" class="lei_a">空调衫</a>
+					<a href="" class="lei_a">皮肤衣</a>
+					<a href="" class="lei_a">衬衫裙</a>
+					<a href="" class="lei_a">牛仔裤</a>
+					<a href="" class="lei_a">打底背心</a>
+				</dt>
+			</div>         
+			<div class="center_l xie">
+				<dt>
+					<dd><a href="" class="lei_a">男款</a>
+					<a href="" class="lei_a">女款</a>
+					<a href="" class="lei_a">高帮</a>
+					<a href="" class="lei_a">低帮</a>
+				</dt>       
+				
+			</div>
+			<div class="center_l qita">
+				<dt>
+					<dd><a href="" class="lei_a">家居</a>
+					<a href="" class="lei_a">袜品</a>
+					<a href="" class="lei_a">配饰</a>
+					<a href="" class="lei_a">配饰童装</a>
+				</dt>
+			</div>
+		
+		</div>
+	<!-- 中间轮播 -->
+		<div id="center_c">
+			<ul>
+				<li class="lunli"></li>
+				<li class="lunli"></li>
+				<li class="lunli"></li>
+				<li class="lunli"></li>
+			</ul>
+			<div class="lunbobox">
+				<a href=""><img src="images/lun1.jpg" alt="" class="lunbo lunbo1"/></a>
+				<a href=""><img src="images/lun2.jpg" alt="" class="lunbo"/></a>
+				<a href=""><img src="images/lun3.jpg" alt="" class="lunbo"/></a>
+				<a href=""><img src="images/lun4.jpg" alt="" class="lunbo"/></a>
+			</div>
+			
+		</div>
+	<!-- 右侧 -->
+		<div id="center_r">
+			<a href=""><img src="images/zhongyou1.jpg" alt="" class="img1" /></a>
+			<a href=""><img src="images/zhongyou2.jpg" alt="" /></a>
+	
+		</div>
+	</div>
+<!-- 中间部分结束 -->
+<!-- 每日抢购 -->
+	<div id="qianggou">
+		<div class="qiang_title">
+			<h2>每日抢购</h2>
+		</div>
+		<div class="meiribox">
+			
+
+		<a href=""><img src="images/mei1.jpg" alt="" /></a>
+		<a href=""><img src="images/mei2.jpg" alt="" /></a>
+		<a href=""><img src="images/mei3.jpg" alt="" /></a>
+		<a href=""><img src="images/mei4.jpg" alt="" /></a>
+		<a href=""><img src="images/mei5.jpg" alt="" /></a>
+		<a href=""><img src="images/mei6.jpg" alt="" /></a>
+		<a href=""><img src="images/mei7.jpg" alt="" /></a>
+		<a href=""><img src="images/mei8.jpg" alt="" /></a>
+		<a href=""><img src="images/mei9.jpg" alt="" /></a>
+		<a href=""><img src="images/mei10.jpg" alt="" /></a>
+		<a href=""><img src="images/mei11.jpg" alt="" /></a>
+		<a href=""><img src="images/mei12.jpg" alt="" /></a>
+		<a href=""><img src="images/mei13.jpg" alt="" /></a>
+		<a href=""><img src="images/mei14.jpg" alt="" /></a>
+		<a href=""><img src="images/mei15.jpg" alt="" /></a>
+		<a href=""><img src="images/mei16.jpg" alt="" /></a>
+		<a href=""><img src="images/mei17.jpg" alt="" /></a>
+		<a href=""><img src="images/mei18.jpg" alt="" /></a>
+		<a href=""><img src="images/mei19.jpg" alt="" /></a>
+		<a href=""><img src="images/mei20.jpg" alt="" /></a>		
+		<a href=""><img src="images/mei21.jpg" alt="" /></a>
+		<a href=""><img src="images/mei22.jpg" alt="" /></a>
+		<a href=""><img src="images/mei23.jpg" alt="" /></a>
+		<a href=""><img src="images/mei24.jpg" alt="" /></a>
+		<a href=""><img src="images/mei25.jpg" alt="" /></a>
+		<a href=""><img src="images/mei26.jpg" alt="" /></a>
+		<a href=""><img src="images/mei27.jpg" alt="" /></a>
+		<a href=""><img src="images/mei28.jpg" alt="" /></a>
+		<a href=""><img src="images/mei29.jpg" alt="" /></a>
+		<a href=""><img src="images/mei30.jpg" alt="" /></a>
+		<a href=""><img src="images/mei31.jpg" alt="" /></a>
+		<a href=""><img src="images/mei32.jpg" alt="" /></a>
+		<a href=""><img src="images/mei33.jpg" alt="" /></a>
+		<a href=""><img src="images/mei34.jpg" alt="" /></a>
+		<a href=""><img src="images/mei35.jpg" alt="" /></a>
+		<a href=""><img src="images/mei36.jpg" alt="" /></a>
+		<a href=""><img src="images/mei37.jpg" alt="" /></a>
+		<a href=""><img src="images/mei38.jpg" alt="" /></a>
+		<a href=""><img src="images/mei39.jpg" alt="" /></a>
+		<a href=""><img src="images/mei40.jpg" alt="" /></a>
+		<a href=""><img src="images/mei41.jpg" alt="" /></a>
+		<a href=""><img src="images/mei42.jpg" alt="" /></a>
+		<a href=""><img src="images/mei43.jpg" alt="" /></a>
+		<a href=""><img src="images/mei44.jpg" alt="" /></a>
+		<a href=""><img src="images/mei45.jpg" alt="" /></a>
+		<a href=""><img src="images/mei46.jpg" alt="" /></a>
+		<a href=""><img src="images/mei47.jpg" alt="" /></a>
+		<a href=""><img src="images/mei48.jpg" alt="" /></a>
+		<a href=""><img src="images/mei49.jpg" alt="" /></a>
+		<a href=""><img src="images/mei50.jpg" alt="" /></a>
+		</div>
+		
+		<div class="qiang_title">
+			<h2>上装</h2>
+		</div>
+		<div class="bot_jp">
+			<a href=""><img src="images/1-polo.jpg" alt="" /></a>
+			<a href=""><img src="images/2-polo.jpg" alt="" /></a>
+			<a href=""><img src="images/3-polo.jpg" alt="" /></a>
+			<a href=""><img src="images/4-polo.jpg" alt="" /></a>
+		</div>
+		<div class="qiang_title">
+			<h2>下装</h2>
+		</div>
+		<div class="bot_jp">
+			<a href=""><img src="images/1xia.jpg" alt="" /></a>
+			<a href=""><img src="images/2xia.jpg" alt="" /></a>
+			<a href=""><img src="images/3xia.jpg" alt="" /></a>
+			<a href=""><img src="images/4xia.jpg" alt="" /></a>
+		</div>
+		<div class="qiang_title">
+			<h2>更多精品</h2>
+		</div>
+		<div class="bot_jp">
+			<a href=""><img src="images/1jp.jpg" alt="" /></a>
+			<a href=""><img src="images/2jp.jpg" alt="" /></a>
+			<a href=""><img src="images/3jp.jpg" alt="" /></a>
+			<a href=""><img src="images/4jp.jpg" alt="" /></a>
+		</div>
+	</div>
+<!-- 底部列表 -->
+	<div id="botlist">
+		<div class="list_fanke">
+			<p><span>关于凡客</span></p>
+			<p><a href="">公司简介</a></p>
+			<p><strong><a href="">联系我们</a></strong></p>
+			<p><a href="">友情链接</a></p>
+		</div>
+
+		<div class="list_xinshou">
+			<p><span>新手指南</span></p>
+			<p><a href="">账户注册</a></p>
+			<p><a href="">购物流程</a></p>
+		</div>
+		<div class="list_peisong">
+			<p><span>配送范围及时间</span></p>
+			<p><a href="">国内配送</a></p>
+			<p><a href="">订单拆分</a></p>
+			
+		</div>
+		<div class="list_zhifu">
+			<p><span>支付方式</span></p>
+			<p><a href="">在线支付</a></p>
+			<p><a href="">货到付款</a></p>
+			<p><a href="">&nbsp;&nbsp;&nbsp;&nbsp;礼品卡及账户余额</a></p>
+			<p><a href="">&nbsp;&nbsp;其他支付方式</a></p>
+		
+		</div>
+		<div class="list_fuwu">
+			<p><span>售后服务</span></p>
+			<p><a href="">&nbsp;退换货政策</a></p>
+			<p><a href="">&nbsp;&nbsp;&nbsp;退换货网上办理</a></p>
+			<p><a href="">&nbsp;&nbsp;&nbsp;退换货办理流程</a></p>
+			<p><a href="">退款说明</a></p>
+			
+		</div>
+		<div class="list_help" style="border-right:none">
+			<p><span>帮助中心</span></p>
+			<p><a href="">在线客服</a></p>
+			<p><a href="">找回密码</a></p>
+			<p><a href="">隐私声明</a></p>			
+		</div>
+		
+	</div>
+<!-- 底部图片 -->
+ <div id="bottubj">
+ 	<div class="tubox">
+ 		<div class="bottu bottu7day">
+ 			<a href=""></a>
+ 		</div>
+ 		<div class="bottu bottumian">
+ 			<a href=""></a>
+ 		</div>
+ 		<div class="bottu bottuhuodao">
+ 			<a href=""></a>
+ 		</div>
+ 		<div class="bottu bottuzaixian">
+ 			<a href=""></a>
+ 		</div>
+ 		
+ 	</div>
+ 	
+ </div>
+<!-- 地址 -->
+ 	<div id="dizhi">
+ 		<p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+ 	</div>
+ 	<div id="name">
+ 		<p>凡客诚品（北京）科技有限公司
+		</p>
+ 	</div>
+<!-- bot_logo -->
+	<div id="botlogo">
+		<a href=""><img src="images/bot1.gif" alt="" /></a>
+		<a href=""><img src="images/bot2.gif" alt="" /></a>
+		<a href=""><img src="images/bot3.gif" alt="" /></a>
+		<a href=""><img src="images/bot4.gif" alt="" /></a>
+		<a href=""><img src="images/bot5.gif" alt="" /></a>
+		<a href=""><img src="images/bot6.png" alt="" /></a>
+	</div>
+</body>
+</html>	

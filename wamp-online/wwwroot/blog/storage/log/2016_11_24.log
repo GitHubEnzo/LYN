@@ -1,0 +1,247 @@
+[ 2016-11-24T00:53:28+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124200078438760',
+  2 => 'ET',
+  3 => '北京北京东城区TER',
+  4 => 'ETR',
+  5 => NULL,
+  6 => 1479920007,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T00:55:56+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124201562419631',
+  2 => 'ET',
+  3 => '北京北京东城区TER',
+  4 => 'ETR',
+  5 => NULL,
+  6 => 1479920156,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T00:58:19+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124202998647312',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479920299,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T00:59:46+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124203861137176',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479920386,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:00:10+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124204107669831',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479920410,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:00:12+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124204123550713',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479920412,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:01:25+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124204851462324',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479920485,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:01:55+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124205159229910',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479920515,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:13:12+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124211929037253',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479921192,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:14:54+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124212947266552',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479921294,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:16:28+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124213885300871',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479921388,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:17:45+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124214658997863',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479921465,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:19:07+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124215470726204',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479921547,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:20:22+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124216229748498',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479921622,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:21:26+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124216866668928',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479921686,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:37:43+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124226631475901',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479922663,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:38:58+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124227384630355',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479922738,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:40:38+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124228381341070',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479922838,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:46:44+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124232042270494',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479923204,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:46:53+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124232137633245',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479923213,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T01:47:55+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124232757693101',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479923275,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T12:16:19+08:00 ]EXCEPTION: INSERT INTO orders (`number`,`consignee`,`address`,`mobile`,`total`,`time`,`uid`) VALUES(?,?,?,?,?,?,?) ;BindParams:array (
+  1 => 'F1124609796748724',
+  2 => 'sdF',
+  3 => '内蒙古呼和浩特回民区DFS',
+  4 => 'SDF',
+  5 => NULL,
+  6 => 1479960979,
+  7 => '3',
+)23000;1048;Column 'total' cannot be null
+[ 2016-11-24T15:45:44+08:00 ]EXCEPTION: app\home\controller\Incary 不存在
+[ 2016-11-24T16:43:25+08:00 ]EXCEPTION: app\home\controller\Incary 不存在
+[ 2016-11-24T21:33:30+08:00 ]EXCEPTION: Method app\home\controller\Login::codeArray() does not exist
+[ 2016-11-24T21:33:36+08:00 ]EXCEPTION: Method app\home\controller\Login::codeArray() does not exist
+[ 2016-11-24T21:33:37+08:00 ]EXCEPTION: Method app\home\controller\Login::codeArray() does not exist
+[ 2016-11-24T21:33:38+08:00 ]EXCEPTION: Method app\home\controller\Login::codeArray() does not exist
+[ 2016-11-24T21:34:06+08:00 ]EXCEPTION: Method app\home\controller\Login::codeArray() does not exist
+[ 2016-11-24T21:34:59+08:00 ]EXCEPTION: Method app\home\controller\Login::codeArray() does not exist
+[ 2016-11-24T21:35:02+08:00 ]EXCEPTION: Method app\home\controller\Login::codeArray() does not exist
+[ 2016-11-24T21:45:35+08:00 ]EXCEPTION: INSERT INTO address (`name`,`phone`,`phone2`,`sheng`,`shi`,`xianqu`,`address`,`uid`) VALUES(?,?,?,?,?,?,?,?) ;BindParams:array (
+  1 => '劉宇',
+  2 => '15041267981',
+  3 => NULL,
+  4 => '北京',
+  5 => '北京',
+  6 => '朝阳区',
+  7 => '798',
+  8 => '8',
+)23000;1048;Column 'phone2' cannot be null
+[ 2016-11-24T21:46:12+08:00 ]EXCEPTION: INSERT INTO address (`name`,`phone`,`phone2`,`sheng`,`shi`,`xianqu`,`address`,`uid`) VALUES(?,?,?,?,?,?,?,?) ;BindParams:array (
+  1 => NULL,
+  2 => NULL,
+  3 => NULL,
+  4 => '0',
+  5 => '0',
+  6 => '0',
+  7 => NULL,
+  8 => '8',
+)23000;1048;Column 'name' cannot be null
+[ 2016-11-24T21:50:00+08:00 ]EXCEPTION: INSERT INTO address (`name`,`phone`,`phone2`,`sheng`,`shi`,`xianqu`,`address`,`uid`) VALUES(?,?,?,?,?,?,?,?) ;BindParams:array (
+  1 => NULL,
+  2 => NULL,
+  3 => NULL,
+  4 => '0',
+  5 => '0',
+  6 => '0',
+  7 => NULL,
+  8 => '8',
+)23000;1048;Column 'name' cannot be null
+[ 2016-11-24T21:53:03+08:00 ]EXCEPTION: INSERT INTO address (`name`,`phone`,`phone2`,`sheng`,`shi`,`xianqu`,`address`,`uid`) VALUES(?,?,?,?,?,?,?,?) ;BindParams:array (
+  1 => NULL,
+  2 => NULL,
+  3 => NULL,
+  4 => '0',
+  5 => '0',
+  6 => '0',
+  7 => NULL,
+  8 => '8',
+)23000;1048;Column 'name' cannot be null

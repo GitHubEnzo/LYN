@@ -1,0 +1,34 @@
+[ 2016-11-25T00:22:18+08:00 ]EXCEPTION: Method app\admin\controller\Shops::del() does not exist
+[ 2016-11-25T01:03:21+08:00 ]EXCEPTION: INSERT INTO goods_list (`combine`,`number`,`inventory`,`gid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '4g,粉色,i7,256g',
+  2 => NULL,
+  3 => NULL,
+  4 => '8',
+)23000;1048;Column 'number' cannot be null
+[ 2016-11-25T13:29:12+08:00 ]EXCEPTION: INSERT INTO goods (`gname`,`gnumber`,`unit`,`marketprice`,`shopprice`,`pic`,`click`,`total`,`aid`,`bid`,`cid`,`tid`,`time`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?) ;BindParams:array (
+  1 => NULL,
+  2 => '4564747',
+  3 => '台',
+  4 => '6464',
+  5 => '6339',
+  6 => 'attachment/2016/11/22/9811479796361.jpg',
+  7 => '4534',
+  8 => '453',
+  9 => '1',
+  10 => '0',
+  11 => '40',
+  12 => '1',
+  13 => 1480051752,
+)23000;1048;Column 'gname' cannot be null
+[ 2016-11-25T15:34:34+08:00 ]EXCEPTION: INSERT INTO category (`cname`,`pid`,`sort`,`tid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => 'DIY',
+  2 => '9',
+  3 => '1',
+  4 => '0',
+)23000;1062;Duplicate entry 'DIY' for key 'category-name_UNIQUE'
+[ 2016-11-25T15:34:40+08:00 ]EXCEPTION: INSERT INTO category (`cname`,`pid`,`sort`,`tid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => 'DIY',
+  2 => '9',
+  3 => '1',
+  4 => '1',
+)23000;1062;Duplicate entry 'DIY' for key 'category-name_UNIQUE'

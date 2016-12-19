@@ -1,0 +1,688 @@
+#spbox {
+  width: 1190px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+#mid_top {
+  position: relative;
+  height: 20px;
+  padding: 10px 0;
+  z-index: 10;
+  line-height: 20px;
+}
+#mid_top .ft {
+  float: left;
+}
+#mid_top span {
+  padding: 0 6px;
+  color: #bbb;
+  font-family: 宋体;
+  float: left;
+}
+#mid_top .dropdown {
+  position: relative;
+  float: left;
+  height: 18px;
+  border: 1px solid #ddd;
+  color: #666;
+  cursor: pointer;
+}
+#mid_top .dropdown span {
+  position: relative;
+  height: 18px;
+  padding: 0 20px 0 8px;
+  line-height: 18px;
+  background: #fff;
+  z-index: 2;
+}
+#mid_top .dropdown span a {
+  float: left;
+  line-height: 18px;
+}
+#mid_top .dropdown i {
+  position: absolute;
+  top: 7px;
+  right: 6px;
+  width: 8px;
+  height: 4px;
+  background: url(../img/icons.png) no-repeat 0 0;
+  z-index: 3;
+  -moz-transform-origin: 50% 50%;
+  -webkit-transition: -webkit-transform .1s ease-in;
+  transition: transform .1s ease-in;
+  _font-size: 0;
+}
+.wrapper {
+  width: 1190px;
+  margin: 0 auto;
+}
+.wrapper .proinfo-container {
+  position: relative;
+  border: 1px solid #ddd;
+  min-height: 520px;
+  background: url(../img/bg-1190.png) repeat-y;
+}
+.wrapper .proinfo-container .proinfo-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 401px;
+  height: 520px;
+  z-index: 5;
+}
+.wrapper .proinfo-container .proinfo-left .imgzoom {
+  position: relative;
+  width: 400px;
+  height: 482px;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+.wrapper .proinfo-container #proinfoMain {
+  height: 859px;
+  position: relative;
+  margin-left: 401px;
+  padding: 0 0 8px;
+  padding-right: 200px;
+  min-height: 410px;
+  z-index: 4;
+}
+.wrapper .proinfo-container #proinfoMain .proinfo-title {
+  position: relative;
+  padding: 13px 20px 12px;
+  padding-right: 80px;
+  background: #fff;
+}
+.wrapper .proinfo-container #proinfoMain .proinfo-title h1 {
+  color: #666;
+  word-break: break-all;
+  font-size: 100%;
+}
+.wrapper .proinfo-container #proinfoMain .proinfo-title span {
+  background-color: #f90;
+  float: left;
+  min-width: 42px;
+  padding: 0 3px;
+  height: 20px;
+  margin: 2px 5px 0 0;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  line-height: 20px;
+  vertical-align: middle;
+}
+.wrapper .proinfo-container #proinfoMain .proinfo-title #promotionDesc {
+  font: normal 14px/18px 微软雅黑;
+  color: #f60;
+  margin-top: 3px;
+  word-break: break-all;
+}
+.wrapper .proinfo-container #proinfoMain .proinfo-title .enter-compare {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  display: block;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  color: #f60;
+  background: #ffefdd;
+  border: 1px solid #fa0;
+  font-family: Microsoft Yahei;
+}
+.wrapper .proinfo-container #proinfoMain #priceDom {
+  position: relative;
+  padding: 14px 0 5px;
+  background: #FF7A00;
+  color: #fff;
+  z-index: 6;
+  margin-top: 50px;
+}
+.wrapper .proinfo-container #proinfoMain #priceDom #mainPrice .price-promo {
+  margin-bottom: 2px;
+}
+.wrapper .proinfo-container #proinfoMain #priceDom #mainPrice .price-promo dt {
+  float: left;
+  width: 70px;
+  padding-left: 20px;
+  color: #fff;
+  overflow: hidden;
+  margin-top: 8px;
+}
+.wrapper .proinfo-container #proinfoMain #priceDom #mainPrice .price-promo dt .w3 {
+  display: inline-block;
+  width: 10em;
+  letter-spacing: .5em;
+  color: #fff;
+}
+.wrapper .proinfo-container #proinfoMain #priceDom #mainPrice .price-promo dd {
+  width: 380px;
+  margin-left: 90px;
+  height: 30px;
+}
+.wrapper .proinfo-container #proinfoMain #priceDom #mainPrice .price-promo dd .mainprice {
+  float: left;
+  font: 700 30px/25px Tahoma;
+  text-shadow: 0 1px 0 #f50;
+  color: #fff;
+}
+.wrapper .proinfo-container #proinfoMain #priceDom #mainPrice .price-promo dd .mainprice i {
+  font-size: 18px;
+  font-family: Arial;
+}
+.wrapper .proinfo-container #proinfoMain #priceDom #mainPrice .price-promo dd .mainprice span {
+  font-size: 24px;
+  font-family: Tahoma;
+}
+.wrapper .proinfo-container #proinfoMain .support-panel {
+  margin-bottom: 6px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.wrapper .proinfo-container #proinfoMain .support-panel dt {
+  float: left;
+  width: 70px;
+  padding-left: 20px;
+  color: #999;
+  overflow: hidden;
+}
+.wrapper .proinfo-container #proinfoMain .support-panel dt span {
+  display: inline-block;
+  width: 10em;
+  letter-spacing: 2em;
+  color: #999;
+}
+.wrapper .proinfo-container #proinfoMain .support-panel dd {
+  margin: -8px 0 0;
+  z-index: 2;
+  margin-left: 90px;
+  margin-top: 0;
+}
+.wrapper .proinfo-container #proinfoMain .support-panel dd #yjhx {
+  float: left;
+  position: relative;
+  padding: 0 0 0 18px;
+  margin-right: 20px;
+  margin-bottom: 4px;
+  background: #fff;
+  white-space: nowrap;
+  color: #333;
+}
+.wrapper .proinfo-container #proinfoMain .support-panel dd #yjhx i {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background-image: url(../img/f-icons-ex1.png);
+  background-color: #5c87c7;
+  background-position: -247px -100px;
+  border-radius: 2px;
+}
+.wrapper .proinfo-container #proinfoMain .support-panel dd #hdfk {
+  float: left;
+  position: relative;
+  padding: 0 0 0 18px;
+  margin-right: 20px;
+  margin-bottom: 4px;
+  background: #fff;
+  white-space: nowrap;
+  color: #333;
+}
+.wrapper .proinfo-container #proinfoMain .support-panel dd #hdfk i {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background-image: url(../img/f-icons-ex1.png);
+  background-color: #5c87c7;
+  background-position: -210px -272px;
+  border-radius: 2px;
+}
+.wrapper .proinfo-container #proinfoMain .dash-line {
+  border-top: 1px dashed #ddd;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 12px;
+  margin-top: 75px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm {
+  z-index: 4;
+  position: relative;
+  width: 587px;
+  height: 231px;
+  margin-top: 30px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmys {
+  margin-bottom: 7px;
+  float: left;
+  width: 587px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmys dt {
+  float: left;
+  width: 70px;
+  padding-left: 20px;
+  color: #999;
+  overflow: hidden;
+  line-height: 42px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmys dt .w2 {
+  display: inline-block;
+  width: 10em;
+  line-height: 42px;
+  letter-spacing: 2em;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmys dd {
+  margin-left: 90px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmys dd .tip-infor .clr-item {
+  float: left;
+  margin: 0 5px 5px 0;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmys dd .tip-infor .clr-item a {
+  display: block;
+  position: relative;
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  padding: 1px 8px 1px 1px;
+  border: 1px solid #ddd;
+  color: #333;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmys dd .tip-infor .clr-item a img {
+  float: left;
+  display: block;
+  height: 38px;
+  width: 38px;
+  margin-right: 6px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmys dd .tip-infor .selected a {
+  border: 2px solid #f90;
+  padding: 0 7px 0 0;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmys dd .tip-infor .selected i {
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  width: 11px;
+  height: 11px;
+  background: url(../img/icons-2.png) no-repeat 0 -33px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmfs {
+  padding-bottom: 7px;
+  margin-bottom: 0;
+  float: left;
+  width: 587px;
+  margin-top: 20px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmfs dt {
+  float: left;
+  width: 70px;
+  padding-left: 20px;
+  color: #999;
+  overflow: hidden;
+  line-height: 30px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmfs dd {
+  margin-left: 90px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmfs dd .clearfix li {
+  float: left;
+  margin: 2px 7px 7px 2px;
+  white-space: nowrap;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmfs dd .clearfix li a {
+  position: relative;
+  float: left;
+  height: 28px;
+  padding: 0 8px;
+  border: 1px solid #ddd;
+  line-height: 28px;
+  background: #fff;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmfs dd .clearfix li i {
+  float: left;
+  margin: 0 2px 2px 0;
+  white-space: nowrap;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmfs dd .clearfix .selected a {
+  height: 26px;
+  padding: 0 7px;
+  border: 2px solid #f90;
+  line-height: 26px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmfs dd .clearfix .selected i {
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  width: 11px;
+  height: 11px;
+  background: url(../img/icons-2.png) no-repeat 0 -33px;
+  display: block;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmyb {
+  margin-bottom: 7px;
+  display: block;
+  z-index: 4;
+  position: relative;
+  width: 587px;
+  float: left;
+  margin-top: 20px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmyb dt {
+  float: left;
+  width: 70px;
+  padding-left: 20px;
+  color: #999;
+  overflow: hidden;
+  line-height: 30px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmyb dt .w2 {
+  display: inline-block;
+  width: 10em;
+  letter-spacing: 2em;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmyb dd {
+  margin-left: 90px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmyb dd ul {
+  padding-right: 20px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmyb dd ul li {
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmyb dd ul li a {
+  position: relative;
+  float: left;
+  height: 28px;
+  padding: 0 5px 0 25px;
+  border: 1px solid #ddd;
+  line-height: 28px;
+  background: #fff;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmyb dd ul li a i {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  width: 14px;
+  height: 14px;
+  background-image: url(../img/icons-2.png);
+  background-position: -326px -346px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmyb dd ul li a span {
+  line-height: 28px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmcount {
+  display: block;
+  margin-bottom: 12px;
+  width: 587px;
+  margin-top: 30px;
+  float: left;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmcount dt {
+  float: left;
+  width: 70px;
+  padding-left: 20px;
+  color: #999;
+  overflow: hidden;
+  line-height: 30px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmcount dt .w2 {
+  letter-spacing: 2em;
+  display: inline-block;
+  width: 10em;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmcount dd {
+  margin-left: 90px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmcount dd .min {
+  float: left;
+  width: 22px;
+  height: 30px;
+  background-image: url(../img/icons-2.png);
+  background-position: -85px 0;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmcount dd .add {
+  float: left;
+  width: 22px;
+  height: 30px;
+  background-image: url(../img/icons-2.png);
+  background-position: -85px -35px;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmcount dd input {
+  float: left;
+  width: 20px;
+  height: 18px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+  text-align: center;
+}
+.wrapper .proinfo-container #proinfoMain .tzm .tzmcount dd span {
+  float: left;
+  line-height: 30px;
+  margin-left: 10px;
+  color: #333;
+}
+.wrapper .proinfo-container #proinfoMain .mainbtns {
+  padding: 80px 0 10px 90px;
+}
+.wrapper .proinfo-container #proinfoMain .mainbtns .btn-dark {
+  background: #5d3e00;
+  color: #fff;
+  font: 16px/40px microsoft yahei;
+  font-weight: 600;
+  border-radius: 3px;
+  width: 115px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+.wrapper .proinfo-container #proinfoMain .mainbtns .btn-orange {
+  background: #f90;
+  color: #fff;
+  font: 16px/40px microsoft yahei;
+  font-weight: 600;
+  border-radius: 3px;
+  width: 135px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+.wrapper .proinfo-container #proinfoMain .mainbtns .btn-orange i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/f-icons-ex1.png);
+  background-position: -241px -182px;
+  vertical-align: middle;
+  margin-right: 3px;
+  margin-top: -2px;
+}
+.wrapper .proinfo-container #proinfoMain .cshopBox {
+  width: 199px;
+  right: 0;
+  background: 0;
+  overflow: visible;
+  border-left: none;
+  height: 763px;
+  position: absolute;
+  top: 0;
+  z-index: 6;
+}
+.wrapper .proinfo-container #proinfoMain .cshopBox .cshop-title {
+  position: relative;
+  width: 100%;
+  height: 43px;
+  background-position: 0 -164px;
+  font-weight: 400;
+  color: #666;
+  overflow: hidden;
+}
+.wrapper .proinfo-container #proinfoMain .cshopBox .cshop-title .look {
+  width: 199px;
+  height: 43px;
+  display: block;
+  text-align: center;
+  line-height: 43px;
+  background: #f90;
+}
+.wrapper .proinfo-container #proinfoMain .cshopBox .cshop-list {
+  position: relative;
+  overflow: hidden;
+}
+.activity {
+  width: 1190px;
+  height: 100px;
+  margin: 15px auto 0;
+  overflow: hidden;
+}
+.met15 {
+  width: 1190px;
+  min-width: 1190px;
+  min-height: 1000px;
+  margin-top: 30px;
+  margin: 15px auto 0;
+}
+.met15 .procon-side {
+  float: left;
+  width: 190px;
+  z-index: 21;
+  height: 300px;
+}
+.met15 .procon {
+  width: 990px;
+  float: right;
+  background: #f9fafb;
+}
+.met15 .procon .tabarea {
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.met15 .procon .tabarea .procon-toolbar {
+  height: 35px;
+}
+.met15 .procon .tabarea .procon-toolbar .tabarea-items {
+  height: 34px;
+  border-bottom: 1px solid #ddd;
+}
+.met15 .procon .tabarea .procon-toolbar .tabarea-items .surrent {
+  float: left;
+  border-right: 1px solid #ddd;
+  background: #fff;
+}
+.met15 .procon .tabarea .procon-toolbar .tabarea-items .surrent a {
+  padding: 0 26px;
+  border-top: 3px solid #f90;
+  margin: -1px;
+  height: 34px;
+  line-height: 30px;
+  color: #f90;
+  float: left;
+  font: normal 14px/34px 微软雅黑;
+}
+.met15 .procon .tabarea .procon-toolbar .tabarea-items li {
+  float: left;
+  border-right: 1px solid #ddd;
+  background: #fff;
+}
+.met15 .procon .tabarea .procon-toolbar .tabarea-items li a {
+  height: 34px;
+  font: normal 14px/34px 微软雅黑;
+  color: #666;
+  float: left;
+  padding: 0 25px;
+}
+.met15 .procon .tabarea .procon-desc {
+  display: block;
+  background: #f9fafb;
+}
+.met15 .procon .tabarea .procon-desc .prod-content {
+  background: #fff;
+  width: 788px;
+  float: left;
+}
+.met15 .procon .tabarea .procon-desc .prod-content .prod-canshubiao {
+  background: #f5f5f5;
+  padding-bottom: 12px;
+}
+.met15 .procon .tabarea .procon-desc .prod-content .prod-text {
+  padding: 18px;
+  overflow: hidden;
+  width: 780px;
+  height: 2000px;
+}
+.met15 .procon .tabarea .procon-desc .prod-content .procon-bzhecanshu {
+  padding: 20px;
+  width: 780px;
+}
+.met15 .procon .tabarea .procon-desc .prod-content .procon-bzhecanshu .procon-table {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.met15 .procon .tabarea .procon-desc .prod-content .procon-bzhecanshu .procon-table tbody th {
+  height: 30px;
+  background: #f0f0f0;
+  text-align: left;
+  vertical-align: middle;
+  text-indent: 5px;
+}
+.met15 .procon .tabarea .procon-desc .prod-content .procon-bzhecanshu .procon-table tbody .name {
+  width: 176px;
+  padding: 3px 5px;
+  border: 1px solid #ddd;
+  color: #666;
+}
+.met15 .procon .tabarea .procon-desc .prod-content .procon-bzhecanshu .procon-table tbody .val {
+  width: 456px;
+  line-height: 24px;
+  padding: 3px 5px;
+  border: 1px solid #ddd;
+  color: #666;
+  border-right: 0;
+}
+.met15 .procon .tabarea .procon-desc .prod-content .procon-bzhecanshu .procon-table tbody .err {
+  padding: 3px 5px;
+  border: 1px solid #ddd;
+  color: #666;
+  text-align: right;
+  padding-right: 68px;
+  border-left: 0;
+}
+.met15 .procon .tabarea .procon-desc .prod-content .procon-pinglun {
+  width: 780px;
+  height: 500px;
+}
+.area_title span {
+  float: left;
+  width: 187px;
+  height: 35px;
+  display: block;
+  text-align: center;
+  line-height: 35px;
+  background: #f90;
+}
+#clear {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+.ds-powered-by {
+  display: none;
+}
+/*# sourceMappingURL=goods.css.map */

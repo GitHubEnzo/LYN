@@ -1,0 +1,11 @@
+[ 2016-11-14T16:54:15+08:00 ]EXCEPTION: INSERT INTO category (`cname`,`pid`,`sort`,`tid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '大牌',
+  2 => '2',
+  3 => '2',
+  4 => NULL,
+)23000;1048;Le champ 'tid' ne peut être vide (null)
+[ 2016-11-14T17:40:14+08:00 ]EXCEPTION: 模板不存在:d:\wamp\www\liu.y.n\suning/app/home/view/entry/../home/home.php
+[ 2016-11-14T19:43:00+08:00 ]EXCEPTION: Method app\home\controller\Cart::index() does not exist
+[ 2016-11-14T19:51:28+08:00 ]EXCEPTION: Method app\home\controller\Login::cart() does not exist
+[ 2016-11-14T19:52:16+08:00 ]EXCEPTION: Method app\home\controller\Login::cartindex() does not exist
+[ 2016-11-14T19:58:06+08:00 ]EXCEPTION: app\home\controller\3 不存在

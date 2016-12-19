@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0cb6e284-e02a-45d3-ab69-58e0b7be46f3" name="wamp" url="http://www.lyn.52tty.com">
+        <fileTransfer host="www.lyn.52tty.com" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" accurateTimestamps="ALWAYS" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

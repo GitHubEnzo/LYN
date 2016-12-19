@@ -1,0 +1,42 @@
+#reg {
+  width: 990px;
+  height: 446px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#reg form {
+  width: 440px;
+  height: 400px;
+  margin: 40px auto 0;
+  overflow: hidden;
+}
+#reg form div {
+  width: 438px;
+  height: 38px;
+  margin-top: 40px ;
+  border: 1px solid #C6C6C6;
+}
+#reg form div i {
+  color: #C6C6C6 ;
+}
+#reg form div input {
+  width: 400px;
+  float: right;
+  height: 38px;
+  line-height: 38px;
+  border: none;
+}
+#reg form #reg_submit {
+  display: block;
+  width: 440px;
+  height: 38px;
+  border: none;
+  margin-top: 40px ;
+  background: #FF9C00;
+}
+footer {
+  background: white;
+}
+footer #link a {
+  color: #666666;
+}

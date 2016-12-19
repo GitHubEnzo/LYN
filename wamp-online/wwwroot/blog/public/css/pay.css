@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #F5F5F5;
+  color: #333;
+  font: 12px/1.5 tahoma, arial, Hiragino Sans GB, 宋体;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #d7d8d8;
+  box-shadow: 0 1px 1px #ddd;
+  margin-bottom: 1px;
+}
+.header .header-box {
+  width: 950px;
+  height: 100%;
+  margin: 0 auto;
+}
+.header .header-box .header-title {
+  float: left;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+.header .header-box .header-title img {
+  float: left;
+  margin-right: 20px;
+}
+.header .header-box .header-title span {
+  font: normal 18px/26px Microsoft YaHei, SimSun;
+  border-left: 1px solid gray;
+  color: #1a1a1a;
+  float: left;
+  padding-left: 10px;
+  margin-top: 2px;
+}
+.header .header-box .header-right {
+  float: right;
+  margin-top: 17px;
+  overflow: hidden;
+}
+.header .header-box .header-right li {
+  float: left;
+  margin: 0 10px;
+}
+.header .header-box .header-right li a {
+  color: #333;
+}
+.content {
+  margin: 0 auto;
+  width: 950px;
+  margin-bottom: 20px;
+  background: #F5F5F5;
+}
+.content .order {
+  overflow: visible;
+  padding: 5px;
+  width: 950px;
+  height: 80px;
+}
+.content .order .order-wrapper {
+  width: 800px;
+  height: 80px;
+  float: right;
+  margin-top: 8px;
+}
+.content .order .order-wrapper .order-title {
+  width: 350px;
+  height: 70px;
+  float: left;
+}
+.content .order .order-wrapper .order-title p {
+  margin: 10px 0;
+  margin-left: 10px;
+}
+.content .order .order-wrapper .order-amount {
+  width: 130px;
+  height: 50px;
+  float: right;
+  margin-top: 15px;
+}
+.content .order .order-wrapper .order-amount em {
+  color: #ff8208;
+  font-weight: 700;
+  font-size: 22px;
+  font-style: normal;
+}
+.content .payMethod {
+  border-top: 3px solid #a6a6a6;
+  padding: 20px;
+  margin-top: 30px;
+  background: white;
+}
+.content .payMethod .payMethod-box {
+  width: 910px;
+  height: 373px;
+}
+.content .payMethod .payMethod-box .payMethod-bank {
+  width: 908px;
+}
+.content .payMethod .payMethod-box .payMethod-bank .banks {
+  width: 900px;
+  height: 52px;
+  border: 4px solid #85A1D4;
+  line-height: 52px;
+}
+.content .payMethod .payMethod-box .payMethod-bank .banks input {
+  margin: 0 20px;
+}
+.content .payMethod .payMethod-box .payMethod-bank .banks .bank-name {
+  overflow: hidden;
+  margin-right: 145px;
+  font-size: 15px;
+}
+.content .payMethod .payMethod-box .payMethod-bank .banks .card-number {
+  margin-right: 20px;
+}
+.content .payMethod .payMethod-box .payMethod-bank .banks .pay-amount {
+  margin-left: 300px;
+}
+.content .payMethod .payMethod-box .payMethod-bank .banks .pay-amount em {
+  font-size: 16px;
+  color: #ff8208;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0 15px;
+}
+.content .payMethod .payMethod-box .manage-list {
+  padding: 10px 0;
+  width: 900px;
+  height: 35px;
+}
+.content .payMethod .payMethod-box .manage-list a {
+  float: left;
+  color: #0ae;
+  border: 1px solid #ccc;
+  line-height: 33px;
+  margin-right: 10px;
+  min-width: 135px;
+  text-align: center;
+}
+.content .payMethod .payMethod-box .manage-list .qita {
+  border: 1px dashed #ccc;
+}
+.content .payMethod .payMethod-box .manage-list a:hover {
+  background: #0088CC;
+  color: white;
+}
+.content .payMethod .payMethod-box .zhifu {
+  width: 900px;
+  height: 121px;
+  margin-top: 50px;
+}
+.content .payMethod .payMethod-box .zhifu .jiance {
+  width: 800px;
+  height: 20px;
+  line-height: 20px;
+}
+.content .payMethod .payMethod-box .zhifu .jiance img {
+  width: 13px;
+  margin: 0 10px 0 0px;
+}
+.content .payMethod .payMethod-box .zhifu .password {
+  width: 800px;
+  margin-top: 10px;
+}
+.content .payMethod .payMethod-box .zhifu .password p {
+  font-size: 17px;
+  margin: 10px 0;
+}
+.content .payMethod .payMethod-box .zhifu .password p input {
+  width: 182px;
+  height: 30px;
+  border: 1px solid #CCCCCC;
+}
+.content .payMethod .payMethod-box .zhifu .password p a {
+  color: #00AAEE;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.content .payMethod .payMethod-box .btn {
+  margin: 50px 0 0 50px;
+}
+.content .payMethod .payMethod-box .btn a {
+  display: block;
+  width: 108px;
+  height: 32px;
+  background: #00AAEE;
+  text-align: center;
+  line-height: 32px;
+  color: white;
+  font-size: 15px;
+}
+.footer {
+  width: 950px;
+  margin: 20px auto;
+  text-align: center;
+  margin-top: 50px;
+  color: #808080;
+}
+.footer a {
+  color: #333333;
+}
+.footer a:hover {
+  color: #808080;
+  text-decoration: underline;
+}
+.partner {
+  width: 950px;
+  margin: 30px auto;
+  text-align: center;
+}
+/*# sourceMappingURL=pay.css.map */

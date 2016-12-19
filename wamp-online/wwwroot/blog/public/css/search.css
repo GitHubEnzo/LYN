@@ -1,0 +1,68 @@
+#goods {
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#goods .goods {
+  width: 238px ;
+  height: 442px;
+  float: left;
+  margin: 5px 4px;
+  overflow: hidden;
+}
+#goods .goods .goods_tp {
+  width: 238 ;
+  text-align: center;
+  border-bottom: 1px solid #C3C3C3;
+}
+#goods .goods .goods_tp_mini {
+  width: 238 ;
+  margin: 5px 10px;
+}
+#goods .goods .goods_tp_mini img {
+  width: 38px;
+}
+#goods .goods .goods_message {
+  overflow: hidden;
+  width: 200px;
+  margin: 0 10px;
+}
+#goods .goods .goods_message .price {
+  font-size: 20px ;
+  color: red;
+  margin-left: 10px ;
+}
+#goods .goods .goods_message p {
+  margin-top: 2px;
+}
+#goods .goods .goods_message p a {
+  text-indent: 2em ;
+}
+#goods .goods .goods_message p .collect {
+  display: block;
+  float: right;
+  color: blue;
+}
+.car-hidden {
+  width: 500px;
+  height: 156px;
+  margin: 30px auto;
+  padding: 47px 0 57px 407px;
+  background: url(../image/cart-empty-bg2.png) 124px 47px no-repeat #fff;
+}
+.car-hidden h2 {
+  padding-top: 40px;
+  font-family: "Microsoft YaHei";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #333;
+}
+.car-hidden h2 a {
+  padding: 5px 12px;
+  background-color: #f50;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: "Microsoft YaHei";
+}

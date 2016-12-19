@@ -1,0 +1,125 @@
+.yigou {
+  width: 1190px;
+  height: 60px;
+  margin: 0 auto;
+  background: #FF7700;
+  line-height: 60px;
+}
+.yigou h1 {
+  margin-left: 20px;
+  color: white;
+}
+.list {
+  width: 1192px;
+  height: 40px;
+  margin: 50px auto 0;
+}
+.list li {
+  display: block;
+  float: left;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FF7700;
+  border: 1px solid #C3C3C3;
+  border-bottom: none;
+}
+#address {
+  width: 1190px;
+  height: 36px;
+  margin: 0 auto;
+  border-bottom: 1px solid #C3C3C3;
+}
+#cart_bar {
+  width: 1190px;
+  height: 32px;
+  margin: 0 auto;
+  border: 1px solid #C3C3C3;
+}
+#cart_bar p {
+  float: left;
+  width: 138px;
+  line-height: 32px;
+  margin-left: 10px;
+  font: 13px;
+  color: gray;
+}
+#by {
+  width: 1190px;
+  height: 26px;
+  margin: 20px auto;
+}
+#by input {
+  margin-left: 10px;
+}
+#by h3 {
+  display: inline-block;
+}
+.oldergoods {
+  position: relative;
+}
+.cart_goods {
+  width: 1190px;
+  height: 112px;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid #C3C3C3;
+  background: #FFFBF2;
+}
+.cart_goods p {
+  width: 30px;
+  height: 110px;
+  float: left;
+}
+.cart_goods p input {
+  margin: 10px;
+}
+.cart_goods img {
+  float: left;
+  margin: 20px;
+  margin-left: 0px ;
+  width: 70px;
+}
+.cart_goods .words {
+  float: left;
+  width: 180px;
+  height: 80px;
+  margin-top: 20px;
+}
+.cart_goods .words img {
+  margin: 0;
+  width: 15px;
+}
+.cart_goods .cart_details {
+  float: left;
+  width: 140px;
+  height: 110px;
+}
+.cart_goods .cart_details span {
+  display: block;
+  margin-top: 20px;
+}
+.pay {
+  position: absolute;
+  top: 0;
+  right: 70px;
+  width: 140px;
+  height: 110px;
+}
+.pay span {
+  display: block;
+  width: 80px;
+  height: 30pxpx;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  background: orange;
+  margin-top: 20px;
+}
+footer {
+  background: white;
+}
+footer #link a {
+  color: #666666;
+}

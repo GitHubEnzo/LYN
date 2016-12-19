@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+<head>
+
+<title>Home</title>
+
+<!-- For-Mobile-Apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+	<script src="js/jquery.min.js"></script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //For-Mobile-Apps -->
+
+<!-- Style --> <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--icon--><link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+<!-- Web-Fonts -->
+<!-- //Web-Fonts -->
+
+
+</head>
+<!-- Head -->
+
+
+
+<!-- Body -->
+<body onload="startTime()">
+
+
+
+	<!-- Heading -->
+	<h1>JUST DO IT</h1>
+	<!-- //Headng -->
+
+
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- City -->
+			<div class="city">
+				<div class="title" style="margin-top:130px ;">
+					<h2>You only live once, but if you do it right, once is enough.​</h2>
+				</div>
+				<div class="date-time">
+					<div class="dmy">
+						<div id="txt"></div>
+						<div class="date">
+							<!-- Date-JavaScript -->
+							<script type="text/javascript">
+							var mydate=new Date()
+							var year=mydate.getYear()
+							if(year<1000)
+							year+=1900
+							var day=mydate.getDay()
+							var month=mydate.getMonth()
+							var daym=mydate.getDate()
+							if(daym<10)
+							daym="0"+daym
+							var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+							var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+							document.write(""+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"")
+							</script>
+							<!-- //Date-JavaScript -->
+						</div>
+					</div>
+					<div class="temperature">
+						<!--<p>20°<span>C</span></p>-->
+					</div>
+				</div>
+			</div>
+			<!-- //City -->
+			<div class="clear" style="display: none"></div>
+
+			<!-- Forecast -->
+			<div>
+			<div class="forecast1">
+			</div>
+			<div class="forecast2">
+				<div class="forecast-icon">
+					<!--<img src="images/LY.png" alt="New York Weather Widget">-->
+				</div>
+				<div class="today-weather">
+					<!--<h3>Cloudy</h3>-->
+					<ul>
+						<li><span> 刘一宁</span><i style="color: purple;" class="icon iconfont">&#xe6a3;</i></li>
+						<li><span> 本科</span><i style="color: skyblue;" class="icon iconfont">&#xe8ea;</i></li>
+						<li><span> 中共党员</span><i style="color: red;" class="icon iconfont">&#xe633;</i></li>
+						<li><span> PHP HTML CSS JS MYSQL</span><i style="color: green;" class="icon iconfont">&#xe95d;</i></li>					
+						<li><span> 13693222731</span><i style="color: blue;" class="icon iconfont">&#xe92b;</i></li>
+						<li><span> 120750909@qq.com</span><i style="color: orange;" class="icon iconfont">&#xe79c;</i></li>
+						<li><span> 黑龙江</span><i style="color: yellow;" class="icon iconfont">&#xe7b0;</i></li>
+						<a target="_blank" href="http://www.500d.me/resume/0256830880/"><p class="more" style="color: red; cursor: pointer; width: 50px; margin: 0 auto;font-size: 20px" >more<i style="font-size: 10px" >>></i></p></a>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+			<!-- //Forecast -->
+			<div class="clear"></div>
+
+		</div>
+		<!-- //Container -->
+	<!-- Custom-JavaScript-Files -->
+
+		<!-- Time-JavaScript -->
+		<script>
+			function startTime() {
+				var today = new Date();
+				var h = today.getHours();
+				var m = today.getMinutes();
+				var s = today.getSeconds();
+				m = checkTime(m);
+				s = checkTime(s);
+				document.getElementById('txt').innerHTML =
+				h + ":" + m + ":" + s;
+				var t = setTimeout(startTime, 500);
+				}
+				function checkTime(i) {
+				if (i < 10) {i = "0" + i}; // add zero in front of numbers < 10
+				return i;
+			}
+		</script>
+		<!-- //Time-JavaScript -->
+
+	<!-- //Custom-JavaScript-File-Links -->
+<!-- work -->
+
+	<div class="work" id="work">
+			<h3>Work Hard</h3>
+			<div class="work-grids">
+				<div class="work-grid">
+					<a href="suning/index.php" target="_blank"  class="b-link-stripe b-animate-go swipebox"  title="">
+						<img src="images/suning.png" alt="" class="img-responsive"/>
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								<p>PHP MYSQL HTML CSS C3 JS <span>Mimic suning</span></p>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="work-grid">
+					<a href="wish/index.php" target="_blank"  class="b-link-stripe b-animate-go swipebox"  title="">
+						<img src="images/wish.png" alt="" class="img-responsive"/>
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								<p>PHP MYSQL HTML5 CSS C3 JS <span>By myself</span></p>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="work-grid">
+					<a href="blog/index.php" target="_blank"  class="b-link-stripe b-animate-go swipebox"  title="">
+						<img src="images/blog.png" alt="" class="img-responsive"/>
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								<p>PHP MYSQL HTML CSS C3 JS <span>By myself</span></p>		
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="work-grid">
+					<a href="responsive/index.html" target="_blank"  class="b-link-stripe b-animate-go swipebox"  title="">
+						<img src="images/responsive.png" alt="" class="img-responsive"/>
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								<p> HTML CSS C3 JS <span>By myself</span></p>		
+								
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
+			<div class="work-grids">
+				<div class="work-grid">
+					<a href="vancl/index.html" target="_blank"  class="b-link-stripe b-animate-go swipebox"  title="">
+						<img src="images/vancl.png" alt="" class="img-responsive"/>
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								<p>HTML CSS C3 JS<span>Mimic vancl</span></p>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="work-grid">
+					<a href="jd/index.html" target="_blank"  class="b-link-stripe b-animate-go swipebox"  title="">
+						<img src="images/jd.png" alt="" class="img-responsive"/>
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								<p>PHP MYSQL HTML CSS C3 JS <span>Mimic JD</span></p>
+
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="work-grid">
+					<a href="flex/index.html" target="_blank"  class="b-link-stripe b-animate-go swipebox"  title="">
+						<img src="images/flex.png" alt="" class="img-responsive"/>
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								<p style="padding: 1.5em 0;"><img style="width: 30%;padding: 0" src="images/flex1.png" alt=""></p>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="work-grid">
+					<a href="weixin/index.html" target="_blank"  class="b-link-stripe b-animate-go swipebox"  title="">
+						<img src="images/weixin.png" alt="" class="img-responsive"/>
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								<p style="padding: 1.5em 0;"><img style="width: 30%;padding: 0" src="images/wechat.png" alt=""></p>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!--swipebox -->	
+				<!--<link rel="stylesheet" href="css/swipebox.css">-->
+					<!--<script src="js/jquery.swipebox.min.js"></script> -->
+					<!--<script type="text/javascript">-->
+						<!--jQuery(function($) {-->
+							<!--$(".swipebox").swipebox();-->
+						<!--});-->
+					<!--</script>-->
+				<!--//swipebox Ends -->
+	</div>
+<!-- //work -->
+</body>
+</html>

@@ -1,0 +1,7 @@
+[ 2016-12-10T23:26:04+08:00 ]EXCEPTION: SQLSTATE[HY000] [1045] Access denied for user 'root'@'121.69.37.186' (using password: NO)
+[ 2016-12-10T23:48:44+08:00 ]EXCEPTION: show columns from address ;BindParams:array (
+)42S02;1146;Table 'suning.address' doesn't exist
+[ 2016-12-10T23:49:24+08:00 ]EXCEPTION: show columns from address ;BindParams:array (
+)42S02;1146;Table 'suning.address' doesn't exist
+[ 2016-12-10T23:50:06+08:00 ]EXCEPTION: show columns from address ;BindParams:array (
+)42S02;1146;Table 'suning.address' doesn't exist

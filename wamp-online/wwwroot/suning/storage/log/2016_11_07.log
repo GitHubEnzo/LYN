@@ -1,0 +1,18 @@
+[ 2016-11-07T15:28:38+08:00 ]EXCEPTION: Method app\admin\controller\Type::edit,[tid=>$v['tid]() does not exist
+[ 2016-11-07T15:29:18+08:00 ]EXCEPTION: Method app\admin\controller\Type::edit,[tid=>$v['tid]() does not exist
+[ 2016-11-07T15:30:58+08:00 ]EXCEPTION: Method app\admin\controller\Type::editArray() does not exist
+[ 2016-11-07T15:32:14+08:00 ]EXCEPTION: Method app\admin\controller\Type::editArray() does not exist
+[ 2016-11-07T15:54:15+08:00 ]EXCEPTION: show columns from tybe ;BindParams:array (
+)42S02;1146;La table 'suning.tybe' n'existe pas
+[ 2016-11-07T17:32:58+08:00 ]EXCEPTION: show columns from typeattr ;BindParams:array (
+)42S02;1146;La table 'suning.typeattr' n'existe pas
+[ 2016-11-07T17:33:10+08:00 ]EXCEPTION: show columns from typeattr ;BindParams:array (
+)42S02;1146;La table 'suning.typeattr' n'existe pas
+[ 2016-11-07T17:35:10+08:00 ]EXCEPTION: show columns from typeattr ;BindParams:array (
+)42S02;1146;La table 'suning.typeattr' n'existe pas
+[ 2016-11-07T19:55:15+08:00 ]EXCEPTION: INSERT INTO category (`cname`,`pid`,`sort`,`tid`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '发生地方',
+  2 => NULL,
+  3 => NULL,
+  4 => NULL,
+)23000;1048;Le champ 'pid' ne peut être vide (null)
